@@ -1,0 +1,1341 @@
+[
+  {
+    "index": "barbarian",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "explorers-pack",
+          "name": "Explorer's Pack",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "javelin",
+          "name": "Javelin",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 4
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "greataxe",
+              "name": "Greataxe",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "martial-melee-weapons",
+                  "name": "Martial Melee Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "handaxe",
+              "name": "Handaxe",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 2
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "bard",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather",
+          "name": "Leather",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Dagger",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "rapier",
+              "name": "Rapier",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "longsword",
+              "name": "Longsword",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "diplomats-pack",
+              "name": "Diplomat's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "entertainers-pack",
+              "name": "Entertainer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "lute",
+              "name": "Lute",
+              "file": "src/5e-SRD-Equipment.json"
+            }
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "musical-instruments",
+                  "name": "Musical Instruments",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "cleric",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "shield",
+          "name": "Shield",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "mace",
+              "name": "Mace",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "warhammer",
+              "name": "Warhammer",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1,
+            "prerequisites": [
+              {
+                "type": "proficiency",
+                "proficiency": {
+                  "index": "warhammers",
+                  "name": "Warhammers",
+                  "file": "src/5e-SRD-Proficiencies.json"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "scale-mail",
+              "name": "Scale Mail",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "leather",
+              "name": "Leather",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "chain-mail",
+              "name": "Chain Mail",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1,
+            "prerequisites": [
+              {
+                "type": "proficiency",
+                "proficiency": {
+                  "index": "chain-mail",
+                  "name": "Chain Mail",
+                  "file": "src/5e-SRD-Proficiencies.json"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ],
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "priests-pack",
+              "name": "Priest's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "equipment_category": {
+            "index": "holy-symbols",
+            "name": "Holy Symbols",
+            "file": "src/5e-SRD-Equipment-Categories.json"
+          }
+        }
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "druid",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather",
+          "name": "Leather",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "explorers-pack",
+          "name": "Explorer's Pack",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "shield",
+              "name": "Shield",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "scimitar",
+              "name": "Scimitar",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "equipment_category": {
+            "index": "druidic-foci",
+            "name": "Druidic Foci",
+            "file": "src/5e-SRD-Equipment-Categories.json"
+          }
+        }
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "fighter",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "chain-mail",
+              "name": "Chain Mail",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          [
+            {
+              "equipment": {
+                "index": "leather",
+                "name": "Leather",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "longbow",
+                "name": "Longbow",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "arrow",
+                "name": "Arrow",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ]
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          [
+            {
+              "equipment": {
+                "index": "shield",
+                "name": "Shield",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment_option": {
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "equipment_category": {
+                    "index": "martial-weapons",
+                    "name": "Martial Weapons",
+                    "file": "src/5e-SRD-Equipment-Categories.json"
+                  }
+                }
+              }
+            }
+          ],
+          {
+            "equipment_option": {
+              "choose": 2,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "martial-weapons",
+                  "name": "Martial Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "handaxe",
+              "name": "Handaxe",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 2
+          },
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ]
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "monk",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dart",
+          "name": "Dart",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 10
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "shortsword",
+              "name": "Shortsword",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "paladin",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "chain-mail",
+          "name": "Chain Mail",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          [
+            {
+              "equipment": {
+                "index": "shield",
+                "name": "Shield",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment_option": {
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "equipment_category": {
+                    "name": "Martial Weapons",
+                    "index": "martial-weapons",
+                    "file": "src/5e-SRD-Equipment-Categories.json"
+                  }
+                }
+              }
+            }
+          ],
+          {
+            "equipment_option": {
+              "choose": 2,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "martial-weapons",
+                  "name": "Martial Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "javelin",
+              "name": "Javelin",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 5
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "priests-pack",
+              "name": "Priest's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "equipment_category": {
+            "index": "holy-symbols",
+            "name": "Holy Symbols",
+            "file": "src/5e-SRD-Equipment-Categories.json"
+          }
+        }
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "ranger",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "longbow",
+          "name": "Longbow",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "arrow",
+          "name": "Arrow",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 20
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "scale-mail",
+              "name": "Scale Mail",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "leather",
+              "name": "Leather",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "shortsword",
+              "name": "Shortsword",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 2
+          },
+          {
+            "equipment_option": {
+              "choose": 2,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-melee-weapons",
+                  "name": "Simple Melee Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "rogue",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather",
+          "name": "Leather",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Dagger",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "index": "thieves-tools",
+          "name": "Thieves' tools",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "rapier",
+              "name": "Rapier",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "shortsword",
+              "name": "Shortsword",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "shortsword",
+              "name": "Shortsword",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          [
+            {
+              "equipment": {
+                "index": "shortbow",
+                "name": "Shortbow",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "arrow",
+                "name": "Arrow",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ]
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "burglars-pack",
+              "name": "Burglar's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "sorcerer",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Dagger",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 2
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ],
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "component-pouch",
+              "name": "Component pouch",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "arcane-foci",
+                  "name": "Arcane Foci",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "explorers-pack",
+              "name": "Explorer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "warlock",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Dagger",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "index": "leather",
+          "name": "Leather",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "file": "src/5e-SRD-Equipment.json"
+              },
+              "quantity": 20
+            }
+          ],
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "simple-weapons",
+                  "name": "Simple Weapons",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "component-pouch",
+              "name": "Component pouch",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "arcane-foci",
+                  "name": "Arcane foci",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "scholars-pack",
+              "name": "Scholar's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "equipment_category": {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "file": "src/5e-SRD-Equipment-Categories.json"
+          }
+        }
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  },
+  {
+    "index": "wizard",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "spellbook",
+          "name": "Spellbook",
+          "file": "src/5e-SRD-Equipment.json"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "dagger",
+              "name": "Dagger",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "quarterstaff",
+              "name": "Quarterstaff",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "component-pouch",
+              "name": "Component pouch",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment_option": {
+              "choose": 1,
+              "type": "equipment",
+              "from": {
+                "equipment_category": {
+                  "index": "arcane-foci",
+                  "name": "Arcane Foci",
+                  "file": "src/5e-SRD-Equipment-Categories.json"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": [
+          {
+            "equipment": {
+              "index": "scholars-pack",
+              "name": "Scholar's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          },
+          {
+            "equipment": {
+              "index": "dungeoneers-pack",
+              "name": "Dungeoneer's Pack",
+              "file": "src/5e-SRD-Equipment.json"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "file": "src/5e-SRD-StartingEquipment.json"
+  }
+]

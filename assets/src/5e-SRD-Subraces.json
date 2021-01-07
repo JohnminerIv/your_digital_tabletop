@@ -1,0 +1,296 @@
+[
+  {
+    "index": "hill-dwarf",
+    "name": "Hill Dwarf",
+    "race": {
+      "index": "dwarf",
+      "name": "Dwarf",
+      "file": "src/5e-SRD-Races.json"
+    },
+    "desc": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "wis",
+          "name": "WIS",
+          "file": "src/5e-SRD-Ability-Scores.json"
+        },
+        "bonus": 1
+      }
+    ],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "dwarven-toughness",
+        "name": "Dwarven Toughness",
+        "file": "src/5e-SRD-Traits.json"
+      }
+    ],
+    "file": "src/5e-SRD-Subraces.json"
+  },
+  {
+    "index": "high-elf",
+    "name": "High Elf",
+    "race": {
+      "index": "elf",
+      "name": "Elf",
+      "file": "src/5e-SRD-Races.json"
+    },
+    "desc": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "INT",
+          "file": "src/5e-SRD-Ability-Scores.json"
+        },
+        "bonus": 1
+      }
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "longswords",
+        "name": "Longswords",
+        "file": "src/5e-SRD-Proficiencies.json"
+      },
+      {
+        "index": "shortswords",
+        "name": "Shortswords",
+        "file": "src/5e-SRD-Proficiencies.json"
+      },
+      {
+        "index": "shortbows",
+        "name": "Shortbows",
+        "file": "src/5e-SRD-Proficiencies.json"
+      },
+      {
+        "index": "longbows",
+        "name": "Longbows",
+        "file": "src/5e-SRD-Proficiencies.json"
+      }
+    ],
+    "languages": [],
+    "language_options": {
+      "choose": 1,
+      "from": [
+        {
+          "index": "dwarvish",
+          "name": "Dwarvish",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "giant",
+          "name": "Giant",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "gnomish",
+          "name": "Gnomish",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "goblin",
+          "name": "Goblin",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "halfling",
+          "name": "Halfling",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "orc",
+          "name": "Orc",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "abyssal",
+          "name": "Abyssal",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "celestial",
+          "name": "Celestial",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "draconic",
+          "name": "Draconic",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "deep-speech",
+          "name": "Deep Speech",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "infernal",
+          "name": "Infernal",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "primordial",
+          "name": "Primordial",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "sylvan",
+          "name": "Sylvan",
+          "file": "src/5e-SRD-Languages.json"
+        },
+        {
+          "index": "undercommon",
+          "name": "Undercommon",
+          "file": "src/5e-SRD-Languages.json"
+        }
+      ],
+      "type": "language"
+    },
+    "racial_traits": [
+      {
+        "index": "elf-weapon-training",
+        "name": "Elf Weapon Training",
+        "file": "src/5e-SRD-Traits.json"
+      }
+    ],
+    "racial_trait_options": {
+      "choose": 1,
+      "from": [
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Light",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Mage Hand",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Mending",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Message",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Minor Illusion",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Acid Splash",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Prestidigitation",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Ray of Frost",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Shocking Grasp",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: True Strike",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Chill Touch",
+          "file": "src/5e-SRD-Traits.json"
+        },
+        {
+          "index": "high-elf-cantrip",
+          "name": "High Elf Cantrip: Dancing Lights",
+          "file": "src/5e-SRD-Traits.json"
+        }
+      ],
+      "type": "trait"
+    },
+    "file": "src/5e-SRD-Subraces.json"
+  },
+  {
+    "index": "lightfoot-halfling",
+    "name": "Lightfoot Halfling",
+    "race": {
+      "index": "halfling",
+      "name": "Halfling",
+      "file": "src/5e-SRD-Races.json"
+    },
+    "desc": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "CHA",
+          "file": "src/5e-SRD-Ability-Scores.json"
+        },
+        "bonus": 1
+      }
+    ],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "naturally-stealthy",
+        "name": "Naturally Stealthy",
+        "file": "src/5e-SRD-Traits.json"
+      }
+    ],
+    "file": "src/5e-SRD-Subraces.json"
+  },
+  {
+    "index": "rock-gnome",
+    "name": "Rock Gnome",
+    "race": {
+      "index": "gnome",
+      "name": "Gnome",
+      "file": "src/5e-SRD-Races.json"
+    },
+    "desc": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "CON",
+          "file": "src/5e-SRD-Ability-Scores.json"
+        },
+        "bonus": 1
+      }
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "tinkers-tools",
+        "name": "Tinker's tools",
+        "file": "src/5e-SRD-Proficiencies.json"
+      }
+    ],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "artificers-lore",
+        "name": "Artificer's Lore",
+        "file": "src/5e-SRD-Traits.json"
+      },
+      {
+        "index": "tinker",
+        "name": "Tinker",
+        "file": "src/5e-SRD-Traits.json"
+      }
+    ],
+    "file": "src/5e-SRD-Subraces.json"
+  }
+]

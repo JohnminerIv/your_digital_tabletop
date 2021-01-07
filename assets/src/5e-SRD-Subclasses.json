@@ -1,0 +1,1786 @@
+[
+  {
+    "index": "berserker",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Berserker",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+      "For some barbarians, rage is a means to an end--that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "lore",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Lore",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic. The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "life",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Life",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "The Life domain focuses on the vibrant positive energy--one of the fundamental forces of the universe--that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community."
+    ],
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-1",
+            "type": "level",
+            "name": "Cleric 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "bless",
+          "name": "Bless",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-1",
+            "type": "level",
+            "name": "Cleric 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "cure-wounds",
+          "name": "Cure Wounds",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-3",
+            "type": "level",
+            "name": "Cleric 3",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-3",
+            "type": "level",
+            "name": "Cleric 3",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "spiritual-weapon",
+          "name": "Spiritual Weapon",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-5",
+            "type": "level",
+            "name": "Cleric 5",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "beacon-of-hope",
+          "name": "Beacon of Hope",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-5",
+            "type": "level",
+            "name": "Cleric 5",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "revivify",
+          "name": "Revivify",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-7",
+            "type": "level",
+            "name": "Cleric 7",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "death-ward",
+          "name": "Death Ward",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-9",
+            "type": "level",
+            "name": "Cleric 9",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "mass-cure-wounds",
+          "name": "Mass Cure Wounds",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "cleric-9",
+            "type": "level",
+            "name": "Cleric 9",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "raise-dead",
+          "name": "Raise Dead",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      }
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "land",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Land",
+    "subclass_flavor": "Druid Circle",
+    "desc": [
+      "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites."
+    ],
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "hold-person",
+          "name": "Hold Person",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "spike-growth",
+          "name": "Spike Growth",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "sleet-storm",
+          "name": "Sleet Storm",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "slow",
+          "name": "Slow",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "holy-aura",
+          "name": "Holy Aura",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "commune",
+          "name": "Commune",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-arctic",
+            "type": "feature",
+            "name": "Circle of the Land: Arctic",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "comprehend-languages",
+          "name": "Comprehend Languages",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "mirror-image",
+          "name": "Mirror Image",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "water-breathing",
+          "name": "Water Breathing",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "water-walk",
+          "name": "Water Walk",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "control-water",
+          "name": "Control Water",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "conjure-elemental",
+          "name": "Conjure Elemental",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-coast",
+            "type": "feature",
+            "name": "Circle of the Land: Coast",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "scrying",
+          "name": "Scrying",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "blur",
+          "name": "Blur",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "silence",
+          "name": "Silence",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "create-food-and-water",
+          "name": "Create Food and Water",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-energy",
+          "name": "Protection From Energy",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "blight",
+          "name": "Blight",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "hallucinatory-terrain",
+          "name": "Hallucinatory Terrain",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "insect-plague",
+          "name": "Insect Plague",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-desert",
+            "type": "feature",
+            "name": "Circle of the Land: Desert",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-stone",
+          "name": "Wall of Stone",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "barkskin",
+          "name": "Barkskin",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "spider-climb",
+          "name": "Spider Climb",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "call-lightning",
+          "name": "Call Lightning",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "plant-growth",
+          "name": "Plant Growth",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "divination",
+          "name": "Divination",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "commune-with-nature",
+          "name": "Commune With Nature",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-forest",
+            "type": "feature",
+            "name": "Circle of the Land: Forest",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "tree-stride",
+          "name": "Tree Stride",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "invisibility",
+          "name": "Invisibility",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "pass-without-trace",
+          "name": "Pass Without Trace",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "daylight",
+          "name": "Daylight",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "haste",
+          "name": "Haste",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "divination",
+          "name": "Divination",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "dream",
+          "name": "Dream",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-grassland",
+            "type": "feature",
+            "name": "Circle of the Land: Grassland",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "insect-plague",
+          "name": "Insect Plague",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "spider-climb",
+          "name": "Spider Climb",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "spike-growth",
+          "name": "Spike Growth",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "lightning-bolt",
+          "name": "Lightning Bolt",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "meld-into-stone",
+          "name": "Meld Into Stone",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "stone-shape",
+          "name": "Stone Shape",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "stoneskin",
+          "name": "Stoneskin",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "passwall",
+          "name": "Passwall",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-mountain",
+            "type": "feature",
+            "name": "Circle of the Land: Mountain",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-stone",
+          "name": "Wall of Stone",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "acid-arrow",
+          "name": "Acid Arrow",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-3",
+            "type": "level",
+            "name": "Druid 3",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "darkness",
+          "name": "Darkness",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "water-walk",
+          "name": "Water Walk",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-5",
+            "type": "level",
+            "name": "Druid 5",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "stinking-cloud",
+          "name": "Stinking Cloud",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-7",
+            "type": "level",
+            "name": "Druid 7",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "locate-creature",
+          "name": "Locate Creature",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "insect-plague",
+          "name": "Insect Plague",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "druid-9",
+            "type": "level",
+            "name": "Druid 9",
+            "file": "src/5e-SRD-Classes.json"
+          },
+          {
+            "index": "circle-of-the-land-swamp",
+            "type": "feature",
+            "name": "Circle of the Land: Swamp",
+            "file": "src/5e-SRD-Features.json"
+          }
+        ],
+        "spell": {
+          "index": "scrying",
+          "name": "Scrying",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      }
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "champion",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Champion",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "open-hand",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Open Hand",
+    "subclass_flavor": "Monastic Tradition",
+    "desc": [
+      "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "devotion",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Devotion",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels--the perfect servants of good--as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+    ],
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-3",
+            "type": "level",
+            "name": "Paladin 3",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-evil-and-good",
+          "name": "Protection from Evil and Good",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-3",
+            "type": "level",
+            "name": "Paladin 3",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "sanctuary",
+          "name": "Sanctuary",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-5",
+            "type": "level",
+            "name": "Paladin 5",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-5",
+            "type": "level",
+            "name": "Paladin 5",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "zone-of-truth",
+          "name": "Zone of Truth",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-9",
+            "type": "level",
+            "name": "Paladin 9",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "beacon-of-hope",
+          "name": "Beacon of Hope",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-9",
+            "type": "level",
+            "name": "Paladin 9",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "dispel-magic",
+          "name": "Dispel Magic",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-13",
+            "type": "level",
+            "name": "Paladin 13",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-17",
+            "type": "level",
+            "name": "Paladin 17",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "commune",
+          "name": "Commune",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "paladin-17",
+            "type": "level",
+            "name": "Paladin 17",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "flame-strike",
+          "name": "Flame Strike",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      }
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "hunter",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Hunter",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "thief",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Thief",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "draconic",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Draconic",
+    "subclass_flavor": "Sorcerous Origins",
+    "desc": [
+      "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "fiend",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Fiend",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
+    ],
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "burning-hands",
+          "name": "Burning Hands",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "command",
+          "name": "Command",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "blindness-deafness",
+          "name": "Blindness/Deafness",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "scorching-ray",
+          "name": "Scorching Ray",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "fireball",
+          "name": "Fireball",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "stinking-cloud",
+          "name": "Stinking Cloud",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "fire-shield",
+          "name": "Fire Shield",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-fire",
+          "name": "Wall of Fire",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "flame-strike",
+          "name": "Flame Strike",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "warlock-1",
+            "type": "level",
+            "name": "Warlock 1",
+            "file": "src/5e-SRD-Classes.json"
+          }
+        ],
+        "spell": {
+          "index": "hallow",
+          "name": "Hallow",
+          "file": "src/5e-SRD-Spells.json"
+        }
+      }
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  },
+  {
+    "index": "evocation",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "file": "src/5e-SRD-Classes.json"
+    },
+    "name": "Evocation",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants."
+    ],
+    "subclass_levels": "src/5e-SRD-Levels.json",
+    "file": "src/5e-SRD-Subclasses.json"
+  }
+]

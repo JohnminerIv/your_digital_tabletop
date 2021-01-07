@@ -1,0 +1,2381 @@
+[
+  {
+    "index": "light-armor",
+    "type": "Armor",
+    "name": "Light armor",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "light-armor",
+        "type": "equipment-categories",
+        "name": "Light armor",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "medium-armor",
+    "type": "Armor",
+    "name": "Medium armor",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "medium-armor",
+        "type": "equipment-categories",
+        "name": "Medium armor",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "heavy-armor",
+    "type": "Armor",
+    "name": "Heavy armor",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "heavy-armor",
+        "type": "equipment-categories",
+        "name": "Heavy armor",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "all-armor",
+    "type": "Armor",
+    "name": "All armor",
+    "classes": [
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "armor",
+        "type": "equipment-categories",
+        "name": "All armor",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "padded",
+    "type": "Armor",
+    "name": "Padded",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "padded",
+        "type": "equipment",
+        "name": "Padded",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "leather",
+    "type": "Armor",
+    "name": "Leather",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "leather",
+        "type": "equipment",
+        "name": "Leather",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "studded-leather",
+    "type": "Armor",
+    "name": "Studded Leather",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "studded-leather",
+        "type": "equipment",
+        "name": "Studded Leather",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "hide",
+    "type": "Armor",
+    "name": "Hide",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "hide",
+        "type": "equipment",
+        "name": "Hide",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "chain-shirt",
+    "type": "Armor",
+    "name": "Chain Shirt",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "chain-shirt",
+        "type": "equipment",
+        "name": "Chain Shirt",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "scale-mail",
+    "type": "Armor",
+    "name": "Scale Mail",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "scale-mail",
+        "type": "equipment",
+        "name": "Scale Mail",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "breastplate",
+    "type": "Armor",
+    "name": "Breastplate",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "breastplate",
+        "type": "equipment",
+        "name": "Breastplate",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "half-plate",
+    "type": "Armor",
+    "name": "Half Plate",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "half-plate",
+        "type": "equipment",
+        "name": "Half Plate",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "ring-mail",
+    "type": "Armor",
+    "name": "Ring Mail",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "ring-mail",
+        "type": "equipment",
+        "name": "Ring Mail",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "chain-mail",
+    "type": "Armor",
+    "name": "Chain Mail",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "chain-mail",
+        "type": "equipment",
+        "name": "Chain Mail",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "splint",
+    "type": "Armor",
+    "name": "Splint",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "splint",
+        "type": "equipment",
+        "name": "Splint",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "plate",
+    "type": "Armor",
+    "name": "Plate",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "plate",
+        "type": "equipment",
+        "name": "Plate",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "shields",
+    "type": "Armor",
+    "name": "Shields",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "shield",
+        "type": "equipment",
+        "name": "Shield",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "simple-weapons",
+    "type": "Weapons",
+    "name": "Simple weapons",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "simple-weapons",
+        "type": "equipment-categories",
+        "name": "Simple weapons",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "martial-weapons",
+    "type": "Weapons",
+    "name": "Martial weapons",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "martial-weapons",
+        "type": "equipment-categories",
+        "name": "Martial weapons",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "clubs",
+    "type": "Weapons",
+    "name": "Clubs",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "club",
+        "type": "equipment",
+        "name": "Club",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "daggers",
+    "type": "Weapons",
+    "name": "Daggers",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "dagger",
+        "type": "equipment",
+        "name": "Dagger",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "greatclubs",
+    "type": "Weapons",
+    "name": "Greatclubs",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "greatclub",
+        "type": "equipment",
+        "name": "Greatclub",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "handaxes",
+    "type": "Weapons",
+    "name": "Handaxes",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "file": "src/5e-SRD-Races.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "handaxe",
+        "type": "equipment",
+        "name": "Handaxe",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "javelins",
+    "type": "Weapons",
+    "name": "Javelins",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "javelin",
+        "type": "equipment",
+        "name": "Javelin",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "light-hammers",
+    "type": "Weapons",
+    "name": "Light hammers",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "file": "src/5e-SRD-Races.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "light-hammer",
+        "type": "equipment",
+        "name": "Light hammer",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "maces",
+    "type": "Weapons",
+    "name": "Maces",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "mace",
+        "type": "equipment",
+        "name": "Mace",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "quarterstaffs",
+    "type": "Weapons",
+    "name": "Quarterstaffs",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "quarterstaff",
+        "type": "equipment",
+        "name": "Quarterstaff",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "sickles",
+    "type": "Weapons",
+    "name": "Sickles",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "sickle",
+        "type": "equipment",
+        "name": "Sickle",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "spears",
+    "type": "Weapons",
+    "name": "Spears",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "spear",
+        "type": "equipment",
+        "name": "Spear",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "crossbows-light",
+    "type": "Weapons",
+    "name": "Crossbows, light",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "crossbow-light",
+        "type": "equipment",
+        "name": "Crossbow, light",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "darts",
+    "type": "Weapons",
+    "name": "Darts",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "dart",
+        "type": "equipment",
+        "name": "Dart",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "shortbows",
+    "type": "Weapons",
+    "name": "Shortbows",
+    "classes": [],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "file": "src/5e-SRD-Subraces.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "shortbow",
+        "type": "equipment",
+        "name": "Shortbow",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "slings",
+    "type": "Weapons",
+    "name": "Slings",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "sling",
+        "type": "equipment",
+        "name": "Sling",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "battleaxes",
+    "type": "Weapons",
+    "name": "Battleaxes",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "file": "src/5e-SRD-Races.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "battleaxe",
+        "type": "equipment",
+        "name": "Battleaxe",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "flails",
+    "type": "Weapons",
+    "name": "Flails",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "flail",
+        "type": "equipment",
+        "name": "Flail",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "glaives",
+    "type": "Weapons",
+    "name": "Glaives",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "glaive",
+        "type": "equipment",
+        "name": "Glaive",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "greataxes",
+    "type": "Weapons",
+    "name": "Greataxes",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "greataxe",
+        "type": "equipment",
+        "name": "Greataxe",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "greatswords",
+    "type": "Weapons",
+    "name": "Greatswords",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "greatsword",
+        "type": "equipment",
+        "name": "Greatsword",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "halberds",
+    "type": "Weapons",
+    "name": "Halberds",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "halberd",
+        "type": "equipment",
+        "name": "Halberd",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "lances",
+    "type": "Weapons",
+    "name": "Lances",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "lance",
+        "type": "equipment",
+        "name": "Lance",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "longswords",
+    "type": "Weapons",
+    "name": "Longswords",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "file": "src/5e-SRD-Subraces.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "longsword",
+        "type": "equipment",
+        "name": "Longsword",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "mauls",
+    "type": "Weapons",
+    "name": "Mauls",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "maul",
+        "type": "equipment",
+        "name": "Maul",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "morningstars",
+    "type": "Weapons",
+    "name": "Morningstars",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "morningstar",
+        "type": "equipment",
+        "name": "Morningstar",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "pikes",
+    "type": "Weapons",
+    "name": "Pikes",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "pike",
+        "type": "equipment",
+        "name": "Pike",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "rapiers",
+    "type": "Weapons",
+    "name": "Rapiers",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "rapier",
+        "type": "equipment",
+        "name": "Rapier",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "scimitars",
+    "type": "Weapons",
+    "name": "Scimitars",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "scimitar",
+        "type": "equipment",
+        "name": "Scimitar",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "shortswords",
+    "type": "Weapons",
+    "name": "Shortswords",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "file": "src/5e-SRD-Subraces.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "shortsword",
+        "type": "equipment",
+        "name": "Shortsword",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "tridents",
+    "type": "Weapons",
+    "name": "Tridents",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "trident",
+        "type": "equipment",
+        "name": "Trident",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "war-picks",
+    "type": "Weapons",
+    "name": "War picks",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "war-pick",
+        "type": "equipment",
+        "name": "War pick",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "warhammers",
+    "type": "Weapons",
+    "name": "Warhammers",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "file": "src/5e-SRD-Races.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "warhammer",
+        "type": "equipment",
+        "name": "Warhammer",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "whips",
+    "type": "Weapons",
+    "name": "Whips",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "whip",
+        "type": "equipment",
+        "name": "Whip",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "blowguns",
+    "type": "Weapons",
+    "name": "Blowguns",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "blowgun",
+        "type": "equipment",
+        "name": "Blowgun",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "crossbows-hand",
+    "type": "Weapons",
+    "name": "Crossbows, hand",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "crossbow-hand",
+        "type": "equipment",
+        "name": "Crossbow, hand",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "crossbows-heavy",
+    "type": "Weapons",
+    "name": "Crossbows, heavy",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "crossbow-heavy",
+        "type": "equipment",
+        "name": "Crossbow, heavy",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "longbows",
+    "type": "Weapons",
+    "name": "Longbows",
+    "classes": [],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "file": "src/5e-SRD-Subraces.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "longbow",
+        "type": "equipment",
+        "name": "Longbow",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "nets",
+    "type": "Weapons",
+    "name": "Nets",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "net",
+        "type": "equipment",
+        "name": "Net",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "alchemists-supplies",
+    "type": "Artisan's Tools",
+    "name": "Alchemist's supplies",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "alchemists-supplies",
+        "type": "equipment",
+        "name": "Alchemist's supplies",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "brewers-supplies",
+    "type": "Artisan's Tools",
+    "name": "Brewer's supplies",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "brewers-supplies",
+        "type": "equipment",
+        "name": "Brewer's supplies",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "calligraphers-supplies",
+    "type": "Artisan's Tools",
+    "name": "Calligrapher's supplies",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "calligraphers-supplies",
+        "type": "equipment",
+        "name": "Calligrapher's supplies",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "carpenters-tools",
+    "type": "Artisan's Tools",
+    "name": "Carpenter's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "carpenters-tools",
+        "type": "equipment",
+        "name": "Carpenter's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "cartographers-tools",
+    "type": "Artisan's Tools",
+    "name": "Cartographer's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "cartographers-tools",
+        "type": "equipment",
+        "name": "Cartographer's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "cobblers-tools",
+    "type": "Artisan's Tools",
+    "name": "Cobbler's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "cobblers-tools",
+        "type": "equipment",
+        "name": "Cobbler's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "cooks-utensils",
+    "type": "Artisan's Tools",
+    "name": "Cook's utensils",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "cooks-utensils",
+        "type": "equipment",
+        "name": "Cook's utensils",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "glassblowers-tools",
+    "type": "Artisan's Tools",
+    "name": "Glassblower's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "glassblowers-tools",
+        "type": "equipment",
+        "name": "Glassblower's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "jewelers-tools",
+    "type": "Artisan's Tools",
+    "name": "Jeweler's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "jewelers-tools",
+        "type": "equipment",
+        "name": "Jeweler's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "leatherworkers-tools",
+    "type": "Artisan's Tools",
+    "name": "Leatherworker's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "leatherworkers-tools",
+        "type": "equipment",
+        "name": "Leatherworker's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "masons-tools",
+    "type": "Artisan's Tools",
+    "name": "Mason's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "masons-tools",
+        "type": "equipment",
+        "name": "Mason's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "painters-supplies",
+    "type": "Artisan's Tools",
+    "name": "Painter's supplies",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "painters-supplies",
+        "type": "equipment",
+        "name": "Painter's supplies",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "potters-tools",
+    "type": "Artisan's Tools",
+    "name": "Potter's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "potters-tools",
+        "type": "equipment",
+        "name": "Potter's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "smiths-tools",
+    "type": "Artisan's Tools",
+    "name": "Smith's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "smiths-tools",
+        "type": "equipment",
+        "name": "Smith's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "tinkers-tools",
+    "type": "Artisan's Tools",
+    "name": "Tinker's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "tinkers-tools",
+        "type": "equipment",
+        "name": "Tinker's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "weavers-tools",
+    "type": "Artisan's Tools",
+    "name": "Weaver's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "weavers-tools",
+        "type": "equipment",
+        "name": "Weaver's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "woodcarvers-tools",
+    "type": "Artisan's Tools",
+    "name": "Woodcarver's tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "woodcarvers-tools",
+        "type": "equipment",
+        "name": "Woodcarver's tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "disguise-kit",
+    "type": "Artisan's Tools",
+    "name": "Disguise kit",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "disguise-kit",
+        "type": "equipment",
+        "name": "Disguise kit",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "forgery-kit",
+    "type": "Artisan's Tools",
+    "name": "Forgery kit",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "forgery-kit",
+        "type": "equipment",
+        "name": "Forgery kit",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "dice-set",
+    "type": "Gaming Sets",
+    "name": "Dice Set",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "dice-set",
+        "type": "equipment",
+        "name": "Dice Set",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "playing-card-set",
+    "type": "Gaming Sets",
+    "name": "Playing card set",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "playing-card-set",
+        "type": "equipment",
+        "name": "Playing card set",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "bagpipes",
+    "type": "Musical Instruments",
+    "name": "Bagpipes",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "bagpipes",
+        "type": "equipment",
+        "name": "Bagpipes",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "drum",
+    "type": "Musical Instruments",
+    "name": "Drum",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "drum",
+        "type": "equipment",
+        "name": "Drum",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "dulcimer",
+    "type": "Musical Instruments",
+    "name": "Dulcimer",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "dulcimer",
+        "type": "equipment",
+        "name": "Dulcimer",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "flute",
+    "type": "Musical Instruments",
+    "name": "Flute",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "flute",
+        "type": "equipment",
+        "name": "Flute",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "lute",
+    "type": "Musical Instruments",
+    "name": "Lute",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "lute",
+        "type": "equipment",
+        "name": "Lute",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "lyre",
+    "type": "Musical Instruments",
+    "name": "Lyre",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "lyre",
+        "type": "equipment",
+        "name": "Lyre",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "horn",
+    "type": "Musical Instruments",
+    "name": "Horn",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "horn",
+        "type": "equipment",
+        "name": "Horn",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "pan-flute",
+    "type": "Musical Instruments",
+    "name": "Pan flute",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "pan-flute",
+        "type": "equipment",
+        "name": "Pan flute",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "shawm",
+    "type": "Musical Instruments",
+    "name": "Shawm",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "shawm",
+        "type": "equipment",
+        "name": "Shawm",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "viol",
+    "type": "Musical Instruments",
+    "name": "Viol",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "viol",
+        "type": "equipment",
+        "name": "Viol",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "herbalism-kit",
+    "type": "Other",
+    "name": "Herbalism Kit",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "herbalism-kit",
+        "type": "equipment",
+        "name": "Herbalism Kit",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "navigators-tools",
+    "type": "Other",
+    "name": "Navigator's Tools",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "navigators-tools",
+        "type": "equipment",
+        "name": "Navigator's Tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "poisoners-kit",
+    "type": "Other",
+    "name": "Poisoner's Kit",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "poisoners-kit",
+        "type": "equipment",
+        "name": "Poisoner's Kit",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "thieves-tools",
+    "type": "Other",
+    "name": "Thieves' Tools",
+    "classes": [
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "thieves-tools",
+        "type": "equipment",
+        "name": "Thieves' Tools",
+        "file": "src/5e-SRD-Equipment.json"
+      }
+    ]
+  },
+  {
+    "index": "land-vehicles",
+    "type": "Vehicles",
+    "name": "Land Vehicles",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "land-vehicles",
+        "type": "equipment-categories",
+        "name": "Land Vehicles",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "water-vehicles",
+    "type": "Vehicles",
+    "name": "Water Vehicles",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "waterborne-vehicles",
+        "type": "equipment-categories",
+        "name": "Waterborne Vehicles",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-str",
+    "type": "Saving Throws",
+    "name": "Saving Throw: STR",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "str",
+        "type": "ability-scores",
+        "name": "STR",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-dex",
+    "type": "Saving Throws",
+    "name": "Saving Throw: DEX",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "dex",
+        "type": "ability-scores",
+        "name": "DEX",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-con",
+    "type": "Saving Throws",
+    "name": "Saving Throw: CON",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "con",
+        "type": "ability-scores",
+        "name": "CON",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-int",
+    "type": "Saving Throws",
+    "name": "Saving Throw: INT",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "int",
+        "type": "ability-scores",
+        "name": "INT",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-wis",
+    "type": "Saving Throws",
+    "name": "Saving Throw: WIS",
+    "classes": [
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "wis",
+        "type": "ability-scores",
+        "name": "WIS",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "saving-throw-cha",
+    "type": "Saving Throws",
+    "name": "Saving Throw: CHA",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "file": "src/5e-SRD-Classes.json"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "file": "src/5e-SRD-Classes.json"
+      }
+    ],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "cha",
+        "type": "ability-scores",
+        "name": "CHA",
+        "file": "src/5e-SRD-Ability-Scores.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-acrobatics",
+    "type": "Skills",
+    "name": "Skill: Acrobatics",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "acrobatics",
+        "type": "skills",
+        "name": "Acrobatics",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-animal-handling",
+    "type": "Skills",
+    "name": "Skill: Animal Handling",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "animal-handling",
+        "type": "skills",
+        "name": "Animal Handling",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-arcana",
+    "type": "Skills",
+    "name": "Skill: Arcana",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "arcana",
+        "type": "skills",
+        "name": "Arcana",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-athletics",
+    "type": "Skills",
+    "name": "Skill: Athletics",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "athletics",
+        "type": "skills",
+        "name": "Athletics",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-deception",
+    "type": "Skills",
+    "name": "Skill: Deception",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "deception",
+        "type": "skills",
+        "name": "Deception",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-history",
+    "type": "Skills",
+    "name": "Skill: History",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "history",
+        "type": "skills",
+        "name": "History",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-insight",
+    "type": "Skills",
+    "name": "Skill: Insight",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "insight",
+        "type": "skills",
+        "name": "Insight",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-intimidation",
+    "type": "Skills",
+    "name": "Skill: Intimidation",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "intimidation",
+        "type": "skills",
+        "name": "Intimidation",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-investigation",
+    "type": "Skills",
+    "name": "Skill: Investigation",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "investigation",
+        "type": "skills",
+        "name": "Investigation",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-medicine",
+    "type": "Skills",
+    "name": "Skill: Medicine",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "medicine",
+        "type": "skills",
+        "name": "Medicine",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-nature",
+    "type": "Skills",
+    "name": "Skill: Nature",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "nature",
+        "type": "skills",
+        "name": "Nature",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-perception",
+    "type": "Skills",
+    "name": "Skill: Perception",
+    "classes": [],
+    "races": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "file": "src/5e-SRD-Races.json"
+      }
+    ],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "perception",
+        "type": "skills",
+        "name": "Perception",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-performance",
+    "type": "Skills",
+    "name": "Skill: Performance",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "performance",
+        "type": "skills",
+        "name": "Performance",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-persuasion",
+    "type": "Skills",
+    "name": "Skill: Persuasion",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "persuasion",
+        "type": "skills",
+        "name": "Persuasion",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-religion",
+    "type": "Skills",
+    "name": "Skill: Religion",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "religion",
+        "type": "skills",
+        "name": "Religion",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-sleight-of-hand",
+    "type": "Skills",
+    "name": "Skill: Sleight of Hand",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "sleight-of-hand",
+        "type": "skills",
+        "name": "Sleight of Hand",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-stealth",
+    "type": "Skills",
+    "name": "Skill: Stealth",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "stealth",
+        "type": "skills",
+        "name": "Stealth",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  },
+  {
+    "index": "skill-survival",
+    "type": "Skills",
+    "name": "Skill: Survival",
+    "classes": [],
+    "races": [],
+    "file": "src/5e-SRD-Proficiencies.json",
+    "references": [
+      {
+        "index": "survival",
+        "type": "skills",
+        "name": "Survival",
+        "file": "src/5e-SRD-Skills.json"
+      }
+    ]
+  }
+]

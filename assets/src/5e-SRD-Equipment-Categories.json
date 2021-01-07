@@ -1,0 +1,4101 @@
+[
+  {
+    "index": "weapon",
+    "name": "Weapon",
+    "equipment": [
+      {
+        "index": "club",
+        "name": "Club",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dagger",
+        "name": "Dagger",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatclub",
+        "name": "Greatclub",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "handaxe",
+        "name": "Handaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "javelin",
+        "name": "Javelin",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "light-hammer",
+        "name": "Light hammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mace",
+        "name": "Mace",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "quarterstaff",
+        "name": "Quarterstaff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sickle",
+        "name": "Sickle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spear",
+        "name": "Spear",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-light",
+        "name": "Crossbow, light",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dart",
+        "name": "Dart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shortbow",
+        "name": "Shortbow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sling",
+        "name": "Sling",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "battleaxe",
+        "name": "Battleaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flail",
+        "name": "Flail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greataxe",
+        "name": "Greataxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatsword",
+        "name": "Greatsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "halberd",
+        "name": "Halberd",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lance",
+        "name": "Lance",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longsword",
+        "name": "Longsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "maul",
+        "name": "Maul",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "morningstar",
+        "name": "Morningstar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pike",
+        "name": "Pike",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rapier",
+        "name": "Rapier",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scimitar",
+        "name": "Scimitar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shortsword",
+        "name": "Shortsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "trident",
+        "name": "Trident",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "war-pick",
+        "name": "War pick",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warhammer",
+        "name": "Warhammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "whip",
+        "name": "Whip",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blowgun",
+        "name": "Blowgun",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-hand",
+        "name": "Crossbow, hand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-heavy",
+        "name": "Crossbow, heavy",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longbow",
+        "name": "Longbow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "net",
+        "name": "Net",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "berserker-axe",
+        "name": "Berserker Axe",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dagger-of-venom",
+        "name": "Dagger of Venom",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dancing-sword",
+        "name": "Dancing Sword",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "defender",
+        "name": "Defender",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dragon-slayer",
+        "name": "Dragon Slayer",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dwarven-thrower",
+        "name": "Dwarven Thrower",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "flame-tongue",
+        "name": "Flame Tongue",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "frost-brand",
+        "name": "Frost Brand",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "giant-slayer",
+        "name": "Giant Slayer",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "hammer-of-thunderbolts",
+        "name": "Hammer of Thunderbolts",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "holy-avenger",
+        "name": "Holy Avenger",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "javelin-of-lightning",
+        "name": "Javelin of Lightning",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "luck-blade",
+        "name": "Luck Blade",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mace-of-disruption",
+        "name": "Mace of Disruption",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mace-of-smiting",
+        "name": "Mace of Smiting",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mace-of-terror",
+        "name": "Mace of Terror",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "nine-lives-stealer",
+        "name": "Nine Lives Stealer",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "oathbow",
+        "name": "Oathbow",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "scimitar-of-speed",
+        "name": "Scimitar of Speed",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sun-blade",
+        "name": "Sun Blade",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sword-of-life-stealing",
+        "name": "Sword of Life Stealing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sword-of-sharpness",
+        "name": "Sword of Sharpness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sword-of-wounding",
+        "name": "Sword of Wounding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "trident-of-fish-command",
+        "name": "Trident of Fish Command",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "vicious-weapon",
+        "name": "Vicious Weapon",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "vorpal-sword",
+        "name": "Vorpal Sword",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "weapon",
+        "name": "Weapon, +1, +2, or +3",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "armor",
+    "name": "Armor",
+    "equipment": [
+      {
+        "index": "padded",
+        "name": "Padded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "leather",
+        "name": "Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "studded-leather",
+        "name": "Studded Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hide",
+        "name": "Hide",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-shirt",
+        "name": "Chain Shirt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scale-mail",
+        "name": "Scale Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "breastplate",
+        "name": "Breastplate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "half-plate",
+        "name": "Half Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ring-mail",
+        "name": "Ring Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-mail",
+        "name": "Chain Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "splint",
+        "name": "Splint",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "plate",
+        "name": "Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shield",
+        "name": "Shield",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "adamantine-armor",
+        "name": "Adamantine Armor",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "animated-shield",
+        "name": "Animated Shield",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "armor",
+        "name": "Armor, +1, +2, or +3",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "armor-of-invulnerability",
+        "name": "Armor of Invulnerability",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "armor-of-resistance",
+        "name": "Armor of Resistance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "armor-of-vulnerability",
+        "name": "Armor of Vulnerability",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "arrow-catching-shield",
+        "name": "Arrow-Catching Shield",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "demon-armor",
+        "name": "Demon Armor",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dragon-scale-mail",
+        "name": "Dragon Scale Mail",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dwarven-plate",
+        "name": "Dwarven Plate",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "elven-chain",
+        "name": "Elven Chain",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "glamoured-studded-leather",
+        "name": "Glamoured Studded Leather",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mithral-armor",
+        "name": "Mithral Armor",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "plate-armor-of-etherealness",
+        "name": "Plate Armor of Etherealness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "shield-of-missile-attraction",
+        "name": "Shield of Missile Attraction",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "spellguard-shield",
+        "name": "Spellguard Shield",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "adventuring-gear",
+    "name": "Adventuring Gear",
+    "equipment": [
+      {
+        "index": "abacus",
+        "name": "Abacus",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "acid-vial",
+        "name": "Acid (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "alchemists-fire-flask",
+        "name": "Alchemist's fire (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "arrow",
+        "name": "Arrow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blowgun-needle",
+        "name": "Blowgun needle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-bolt",
+        "name": "Crossbow bolt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sling-bullet",
+        "name": "Sling bullet",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "amulet",
+        "name": "Amulet",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "antitoxin-vial",
+        "name": "Antitoxin (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "backpack",
+        "name": "Backpack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ball-bearings-bag-of-1000",
+        "name": "Ball bearings (bag of 1,000)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barrel",
+        "name": "Barrel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "basket",
+        "name": "Basket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bell",
+        "name": "Bell",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blanket",
+        "name": "Blanket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "block-and-tackle",
+        "name": "Block and tackle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "book",
+        "name": "Book",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bottle-glass",
+        "name": "Bottle, glass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bucket",
+        "name": "Bucket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "caltrops",
+        "name": "Caltrops",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "candle",
+        "name": "Candle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "case-crossbow-bolt",
+        "name": "Case, crossbow bolt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "case-map-or-scroll",
+        "name": "Case, map or scroll",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-10-feet",
+        "name": "Chain (10 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chalk-1-piece",
+        "name": "Chalk (1 piece)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chest",
+        "name": "Chest",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-common",
+        "name": "Clothes, common",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-costume",
+        "name": "Clothes, costume",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-fine",
+        "name": "Clothes, fine",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-travelers",
+        "name": "Clothes, traveler's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "component-pouch",
+        "name": "Component pouch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crowbar",
+        "name": "Crowbar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "emblem",
+        "name": "Emblem",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "fishing-tackle",
+        "name": "Fishing tackle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flask-or-tankard",
+        "name": "Flask or tankard",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "grappling-hook",
+        "name": "Grappling hook",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hammer",
+        "name": "Hammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hammer-sledge",
+        "name": "Hammer, sledge",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "holy-water-flask",
+        "name": "Holy water (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hourglass",
+        "name": "Hourglass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hunting-trap",
+        "name": "Hunting trap",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-1-ounce-bottle",
+        "name": "Ink (1 ounce bottle)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-pen",
+        "name": "Ink pen",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "jug-or-pitcher",
+        "name": "Jug or pitcher",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "climbers-kit",
+        "name": "Climber's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "disguise-kit",
+        "name": "Disguise Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "forgery-kit",
+        "name": "Forgery Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "herbalism-kit",
+        "name": "Herbalism Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "healers-kit",
+        "name": "Healer's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mess-kit",
+        "name": "Mess Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "poisoners-kit",
+        "name": "Poisoner's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ladder-10-foot",
+        "name": "Ladder (10-foot)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lamp",
+        "name": "Lamp",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lantern-bullseye",
+        "name": "Lantern, bullseye",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lantern-hooded",
+        "name": "Lantern, hooded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lock",
+        "name": "Lock",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "magnifying-glass",
+        "name": "Magnifying glass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "manacles",
+        "name": "Manacles",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mirror-steel",
+        "name": "Mirror, steel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "oil-flask",
+        "name": "Oil (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "paper-one-sheet",
+        "name": "Paper (one sheet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "parchment-one-sheet",
+        "name": "Parchment (one sheet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "perfume-vial",
+        "name": "Perfume (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pick-miners",
+        "name": "Pick, miner's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "piton",
+        "name": "Piton",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "poison-basic-vial",
+        "name": "Poison, basic (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pole-10-foot",
+        "name": "Pole (10-foot)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pot-iron",
+        "name": "Pot, iron",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "potion-of-healing",
+        "name": "Potion of healing",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pouch",
+        "name": "Pouch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "quiver",
+        "name": "Quiver",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ram-portable",
+        "name": "Ram, portable",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rations-1-day",
+        "name": "Rations (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "reliquary",
+        "name": "Reliquary",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "robes",
+        "name": "Robes",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rope-hempen-50-feet",
+        "name": "Rope, hempen (50 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rope-silk-50-feet",
+        "name": "Rope, silk (50 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sack",
+        "name": "Sack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scale-merchants",
+        "name": "Scale, merchant's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sealing-wax",
+        "name": "Sealing wax",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shovel",
+        "name": "Shovel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "signal-whistle",
+        "name": "Signal whistle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "signet-ring",
+        "name": "Signet ring",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "soap",
+        "name": "Soap",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spellbook",
+        "name": "Spellbook",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spike-iron",
+        "name": "Spike, iron",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spyglass",
+        "name": "Spyglass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tent-two-person",
+        "name": "Tent, two-person",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "torch",
+        "name": "Torch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "vial",
+        "name": "Vial",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "whetstone",
+        "name": "Whetstone",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "burglars-pack",
+        "name": "Burglar's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "diplomats-pack",
+        "name": "Diplomat's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dungeoneers-pack",
+        "name": "Dungeoneer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "entertainers-pack",
+        "name": "Entertainer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "explorers-pack",
+        "name": "Explorer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "priests-pack",
+        "name": "Priest's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scholars-pack",
+        "name": "Scholar's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crystal",
+        "name": "Crystal",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "orb",
+        "name": "Orb",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rod",
+        "name": "Rod",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "staff",
+        "name": "Staff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wand",
+        "name": "Wand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sprig-of-mistletoe",
+        "name": "Sprig of mistletoe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "totem",
+        "name": "Totem",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wooden-staff",
+        "name": "Wooden staff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "yew-wand",
+        "name": "Yew wand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "ammunition",
+    "name": "Ammunition",
+    "equipment": [
+      {
+        "index": "arrow",
+        "name": "Arrow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blowgun-needle",
+        "name": "Blowgun needle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-bolt",
+        "name": "Crossbow bolt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sling-bullet",
+        "file": "src/5e-SRD-Equipment-Categories.json",
+        "name": "Sling bullet"
+      },
+      {
+        "index": "ammunition",
+        "name": "Ammunition, +1, +2, or +3",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "arrow-of-slaying",
+        "name": "Arrow of Slaying",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "tools",
+    "name": "Tools",
+    "equipment": [
+      {
+        "index": "alchemists-supplies",
+        "name": "Alchemist's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "brewers-supplies",
+        "name": "Brewer's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "calligraphers-supplies",
+        "name": "Calligrapher's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "carpenters-tools",
+        "name": "Carpenter's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cartographers-tools",
+        "name": "Cartographer's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cobblers-tools",
+        "name": "Cobbler's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cooks-utensils",
+        "name": "Cook's utensils",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "glassblowers-tools",
+        "name": "Glassblower's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "jewelers-tools",
+        "name": "Jeweler's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "leatherworkers-tools",
+        "name": "Leatherworker's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "masons-tools",
+        "name": "Mason's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "painters-supplies",
+        "name": "Painter's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "potters-tools",
+        "name": "Potter's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "smiths-tools",
+        "name": "Smith's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tinkers-tools",
+        "name": "Tinker's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "weavers-tools",
+        "name": "Weaver's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "woodcarvers-tools",
+        "name": "Woodcarver's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dice-set",
+        "name": "Dice set",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "playing-card-set",
+        "name": "Playing card set",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bagpipes",
+        "name": "Bagpipes",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "drum",
+        "name": "Drum",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dulcimer",
+        "name": "Dulcimer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flute",
+        "name": "Flute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lute",
+        "name": "Lute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lyre",
+        "name": "Lyre",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horn",
+        "name": "Horn",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pan-flute",
+        "name": "Pan flute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shawm",
+        "name": "Shawm",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "viol",
+        "name": "Viol",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "navigators-tools",
+        "name": "Navigator's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "thieves-tools",
+        "name": "Thieves' tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "mounts-and-vehicles",
+    "name": "Mounts and Vehicles",
+    "equipment": [
+      {
+        "index": "mule",
+        "name": "Mule",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "elephant",
+        "name": "Elephant",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horse-draft",
+        "name": "Horse, draft",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horse-riding",
+        "name": "Horse, riding",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mastiff",
+        "name": "Mastiff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pony",
+        "name": "Pony",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warhorse",
+        "name": "Warhorse",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-padded",
+        "name": "Barding: Padded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-leather",
+        "name": "Barding: Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-studded-leather",
+        "name": "Barding: Studded Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-hide",
+        "name": "Barding: Hide",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-shirt",
+        "name": "Barding: Chain shirt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-scale-mail",
+        "name": "Barding: Scale mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-breastplate",
+        "name": "Barding: Breastplate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-half-plate",
+        "name": "Barding: Half plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-ring-mail",
+        "name": "Barding: Ring mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-mail",
+        "name": "Barding: Chain mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-splint",
+        "name": "Barding: Splint",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-plate",
+        "name": "Barding: Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bit-and-bridle",
+        "name": "Bit and bridle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "carriage",
+        "name": "Carriage",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cart",
+        "name": "Cart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chariot",
+        "name": "Chariot",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "animal-feed-1-day",
+        "name": "Animal Feed (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-exotic",
+        "name": "Saddle, Exotic",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-military",
+        "name": "Saddle, Military",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-pack",
+        "name": "Saddle, Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "riding",
+        "name": "Riding",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddlebags",
+        "name": "Saddlebags",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sled",
+        "name": "Sled",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "stabling-1-day",
+        "name": "Stabling (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wagon",
+        "name": "Wagon",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-padded",
+        "name": "Barding: Padded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-leather",
+        "name": "Barding: Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-studded-leather",
+        "name": "Barding: Studded Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-hide",
+        "name": "Barding: Hide",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-shirt",
+        "name": "Barding: Chain shirt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-scale-mail",
+        "name": "Barding: Scale mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-breastplate",
+        "name": "Barding: Breastplate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-half-plate",
+        "name": "Barding: Half plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-ring-mail",
+        "name": "Barding: Ring mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-mail",
+        "name": "Barding: Chain mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-splint",
+        "name": "Barding: Splint",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-plate",
+        "name": "Barding: Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bit-and-bridle",
+        "name": "Bit and bridle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "carriage",
+        "name": "Carriage",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cart",
+        "name": "Cart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chariot",
+        "name": "Chariot",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "animal-feed-1-day",
+        "name": "Animal Feed (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-exotic",
+        "name": "Saddle, Exotic",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-military",
+        "name": "Saddle, Military",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-pack",
+        "name": "Saddle, Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "riding",
+        "name": "Riding",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddlebags",
+        "name": "Saddlebags",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sled",
+        "name": "Sled",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "stabling-1-day",
+        "name": "Stabling (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wagon",
+        "name": "Wagon",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "galley",
+        "name": "Galley",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "keelboat",
+        "name": "Keelboat",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longship",
+        "name": "Longship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rowboat",
+        "name": "Rowboat",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sailing-ship",
+        "name": "Sailing ship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warship",
+        "name": "Warship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "simple-weapons",
+    "name": "Simple Weapons",
+    "equipment": [
+      {
+        "index": "club",
+        "name": "Club",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dagger",
+        "name": "Dagger",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatclub",
+        "name": "Greatclub",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "handaxe",
+        "name": "Handaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "javelin",
+        "name": "Javelin",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "light-hammer",
+        "name": "Light hammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mace",
+        "name": "Mace",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "quarterstaff",
+        "name": "Quarterstaff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sickle",
+        "name": "Sickle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spear",
+        "name": "Spear",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "martial-weapons",
+    "name": "Martial Weapons",
+    "equipment": [
+      {
+        "index": "battleaxe",
+        "name": "Battleaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flail",
+        "name": "Flail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greataxe",
+        "name": "Greataxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatsword",
+        "name": "Greatsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "halberd",
+        "name": "Halberd",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lance",
+        "name": "Lance",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longsword",
+        "name": "Longsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "maul",
+        "name": "Maul",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "morningstar",
+        "name": "Morningstar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pike",
+        "name": "Pike",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rapier",
+        "name": "Rapier",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scimitar",
+        "name": "Scimitar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shortsword",
+        "name": "Shortsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "trident",
+        "name": "Trident",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "war-pick",
+        "name": "War pick",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warhammer",
+        "name": "Warhammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "whip",
+        "name": "Whip",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blowgun",
+        "name": "Blowgun",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-hand",
+        "name": "Crossbow, hand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-heavy",
+        "name": "Crossbow, heavy",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longbow",
+        "name": "Longbow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "net",
+        "name": "Net",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "simple-melee-weapons",
+    "name": "Simple Melee Weapons",
+    "equipment": [
+      {
+        "index": "club",
+        "name": "Club",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dagger",
+        "name": "Dagger",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatclub",
+        "name": "Greatclub",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "handaxe",
+        "name": "Handaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "javelin",
+        "name": "Javelin",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "light-hammer",
+        "name": "Light hammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mace",
+        "name": "Mace",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "quarterstaff",
+        "name": "Quarterstaff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sickle",
+        "name": "Sickle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spear",
+        "name": "Spear",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "simple-ranged-weapons",
+    "name": "Simple Ranged Weapons",
+    "equipment": [
+      {
+        "index": "crossbow-light",
+        "name": "Crossbow, light",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dart",
+        "name": "Dart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shortbow",
+        "name": "Shortbow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sling",
+        "name": "Sling",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "martial-melee-weapons",
+    "name": "Martial Melee Weapons",
+    "equipment": [
+      {
+        "index": "battleaxe",
+        "name": "Battleaxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flail",
+        "name": "Flail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greataxe",
+        "name": "Greataxe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "greatsword",
+        "name": "Greatsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "halberd",
+        "name": "Halberd",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lance",
+        "name": "Lance",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longsword",
+        "name": "Longsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "maul",
+        "name": "Maul",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "morningstar",
+        "name": "Morningstar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pike",
+        "name": "Pike",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rapier",
+        "name": "Rapier",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scimitar",
+        "name": "Scimitar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shortsword",
+        "name": "Shortsword",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "trident",
+        "name": "Trident",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "war-pick",
+        "name": "War pick",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warhammer",
+        "name": "Warhammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "whip",
+        "name": "Whip",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "martial-ranged-weapons",
+    "name": "Martial Ranged Weapons",
+    "equipment": [
+      {
+        "index": "blowgun",
+        "name": "Blowgun",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-hand",
+        "name": "Crossbow, hand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-heavy",
+        "name": "Crossbow, heavy",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longbow",
+        "name": "Longbow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "net",
+        "name": "Net",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "light-armor",
+    "name": "Light Armor",
+    "equipment": [
+      {
+        "index": "padded",
+        "name": "Padded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "leather",
+        "name": "Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "studded-leather",
+        "name": "Studded Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "medium-armor",
+    "name": "Medium Armor",
+    "equipment": [
+      {
+        "index": "hide",
+        "name": "Hide",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-shirt",
+        "name": "Chain Shirt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scale-mail",
+        "name": "Scale Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "breastplate",
+        "name": "Breastplate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "half-plate",
+        "name": "Half Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "heavy-armor",
+    "name": "Heavy Armor",
+    "equipment": [
+      {
+        "index": "ring-mail",
+        "name": "Ring Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-mail",
+        "name": "Chain Mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "splint",
+        "name": "Splint",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "plate",
+        "name": "Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "shields",
+    "name": "Shields",
+    "equipment": [
+      {
+        "index": "shield",
+        "name": "Shield",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "standard-gear",
+    "name": "Standard Gear",
+    "equipment": [
+      {
+        "index": "abacus",
+        "name": "Abacus",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "acid-vial",
+        "name": "Acid (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "alchemists-fire-flask",
+        "name": "Alchemist's fire (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "arrow",
+        "name": "Arrow",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blowgun-needle",
+        "name": "Blowgun needle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crossbow-bolt",
+        "name": "Crossbow bolt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sling-bullet",
+        "name": "Sling bullet",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "antitoxin-vial",
+        "name": "Antitoxin (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "backpack",
+        "name": "Backpack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ball-bearings-bag-of-1000",
+        "name": "Ball bearings (bag of 1,000)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barrel",
+        "name": "Barrel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "basket",
+        "name": "Basket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bell",
+        "name": "Bell",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "blanket",
+        "name": "Blanket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "block-and-tackle",
+        "name": "Block and tackle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "book",
+        "name": "Book",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bottle-glass",
+        "name": "Bottle, glass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bucket",
+        "name": "Bucket",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "caltrops",
+        "name": "Caltrops",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "candle",
+        "name": "Candle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "case-crossbow-bolt",
+        "name": "Case, crossbow bolt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "case-map-or-scroll",
+        "name": "Case, map or scroll",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chain-10-feet",
+        "name": "Chain (10 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chalk-1-piece",
+        "name": "Chalk (1 piece)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chest",
+        "name": "Chest",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-common",
+        "name": "Clothes, common",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-costume",
+        "name": "Clothes, costume",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-fine",
+        "name": "Clothes, fine",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "clothes-travelers",
+        "name": "Clothes, traveler's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "component-pouch",
+        "name": "Component pouch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "crowbar",
+        "name": "Crowbar",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "fishing-tackle",
+        "name": "Fishing tackle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flask-or-tankard",
+        "name": "Flask or tankard",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "grappling-hook",
+        "name": "Grappling hook",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hammer",
+        "name": "Hammer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hammer-sledge",
+        "name": "Hammer, sledge",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "holy-water-flask",
+        "name": "Holy water (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hourglass",
+        "name": "Hourglass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hunting-trap",
+        "name": "Hunting trap",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-1-ounce-bottle",
+        "name": "Ink (1 ounce bottle)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-pen",
+        "name": "Ink pen",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hourglass",
+        "name": "Hourglass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "hunting-trap",
+        "name": "Hunting trap",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-1-ounce-bottle",
+        "name": "Ink (1 ounce bottle)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ink-pen",
+        "name": "Ink pen",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "jug-or-pitcher",
+        "name": "Jug or pitcher",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ladder-10-foot",
+        "name": "Ladder (10-foot)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lamp",
+        "name": "Lamp",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lantern-bullseye",
+        "name": "Lantern, bullseye",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lantern-hooded",
+        "name": "Lantern, hooded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lock",
+        "name": "Lock",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "magnifying-glass",
+        "name": "Magnifying glass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "manacles",
+        "name": "Manacles",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mirror-steel",
+        "name": "Mirror, steel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "oil-flask",
+        "name": "Oil (flask)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "paper-one-sheet",
+        "name": "Paper (one sheet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "parchment-one-sheet",
+        "name": "Parchment (one sheet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "perfume-vial",
+        "name": "Perfume (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pick-miners",
+        "name": "Pick, miner's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "piton",
+        "name": "Piton",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "poison-basic-vial",
+        "name": "Poison, basic (vial)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pole-10-foot",
+        "name": "Pole (10-foot)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pot-iron",
+        "name": "Pot, iron",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "potion-of-healing",
+        "name": "Potion of healing",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pouch",
+        "name": "Pouch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "quiver",
+        "name": "Quiver",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "ram-portable",
+        "name": "Ram, portable",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rations-1-day",
+        "name": "Rations (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "robes",
+        "name": "Robes",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rope-hempen-50-feet",
+        "name": "Rope, hempen (50 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rope-silk-50-feet",
+        "name": "Rope, silk (50 feet)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sack",
+        "name": "Sack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scale-merchants",
+        "name": "Scale, merchant's",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sealing-wax",
+        "name": "Sealing wax",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shovel",
+        "name": "Shovel",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "signal-whistle",
+        "name": "Signal whistle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "signet-ring",
+        "name": "Signet ring",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "soap",
+        "name": "Soap",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spellbook",
+        "name": "Spellbook",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spike-iron",
+        "name": "Spike, iron",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "spyglass",
+        "name": "Spyglass",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tent-two-person",
+        "name": "Tent, two-person",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "torch",
+        "name": "Torch",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "vial",
+        "name": "Vial",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "whetstone",
+        "name": "Whetstone",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "kits",
+    "name": "Kits",
+    "equipment": [
+      {
+        "index": "climbers-kit",
+        "name": "Climber's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "disguise-kit",
+        "name": "Disguise Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "forgery-kit",
+        "name": "Forgery Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "herbalism-kit",
+        "name": "Herbalism Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "healers-kit",
+        "name": "Healer's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mess-kit",
+        "name": "Mess Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "poisoners-kit",
+        "name": "Poisoner's Kit",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "equipment-packs",
+    "name": "Equipment Packs",
+    "equipment": [
+      {
+        "index": "burglars-pack",
+        "name": "Burglar's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "diplomats-pack",
+        "name": "Diplomat's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dungeoneers-pack",
+        "name": "Dungeoneer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "entertainers-pack",
+        "name": "Entertainer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "explorers-pack",
+        "name": "Explorer's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "priests-pack",
+        "name": "Priest's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "scholars-pack",
+        "name": "Scholar's Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "artisans-tools",
+    "name": "Artisan's Tools",
+    "equipment": [
+      {
+        "index": "alchemists-supplies",
+        "name": "Alchemist's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "brewers-supplies",
+        "name": "Brewer's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "calligraphers-supplies",
+        "name": "Calligrapher's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "carpenters-tools",
+        "name": "Carpenter's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cartographers-tools",
+        "name": "Cartographer's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cobblers-tools",
+        "name": "Cobbler's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cooks-utensils",
+        "name": "Cook's utensils",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "glassblowers-tools",
+        "name": "Glassblower's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "jewelers-tools",
+        "name": "Jeweler's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "leatherworkers-tools",
+        "name": "Leatherworker's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "masons-tools",
+        "name": "Mason's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "painters-supplies",
+        "name": "Painter's supplies",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "potters-tools",
+        "name": "Potter's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "smiths-tools",
+        "name": "Smith's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "tinkers-tools",
+        "name": "Tinker's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "weavers-tools",
+        "name": "Weaver's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "woodcarvers-tools",
+        "name": "Woodcarver's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "gaming-sets",
+    "name": "Gaming Sets",
+    "equipment": [
+      {
+        "index": "dice-set",
+        "name": "Dice set",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "playing-card-set",
+        "name": "Playing card set",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "musical-instruments",
+    "name": "Musical Instruments",
+    "equipment": [
+      {
+        "index": "bagpipes",
+        "name": "Bagpipes",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "drum",
+        "name": "Drum",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "dulcimer",
+        "name": "Dulcimer",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "flute",
+        "name": "Flute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lute",
+        "name": "Lute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "lyre",
+        "name": "Lyre",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horn",
+        "name": "Horn",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pan-flute",
+        "name": "Pan flute",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "shawm",
+        "name": "Shawm",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "viol",
+        "name": "Viol",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "other-tools",
+    "name": "Other Tools",
+    "equipment": [
+      {
+        "index": "navigators-tools",
+        "name": "Navigator's tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "thieves-tools",
+        "name": "Thieves' tools",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "mounts-and-other-animals",
+    "name": "Mounts and Other Animals",
+    "equipment": [
+      {
+        "index": "mule",
+        "name": "Mule",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "elephant",
+        "name": "Elephant",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horse-draft",
+        "name": "Horse, draft",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "horse-riding",
+        "name": "Horse, riding",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "mastiff",
+        "name": "Mastiff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "pony",
+        "name": "Pony",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warhorse",
+        "name": "Warhorse",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "tack-harness-and-drawn-vehicles",
+    "name": "Tack, Harness, and Drawn Vehicles",
+    "equipment": [
+      {
+        "index": "barding-padded",
+        "name": "Barding: Padded",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-leather",
+        "name": "Barding: Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-studded-leather",
+        "name": "Barding: Studded Leather",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-hide",
+        "name": "Barding: Hide",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-shirt",
+        "name": "Barding: Chain shirt",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-scale-mail",
+        "name": "Barding: Scale mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-breastplate",
+        "name": "Barding: Breastplate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-half-plate",
+        "name": "Barding: Half plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-ring-mail",
+        "name": "Barding: Ring mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-chain-mail",
+        "name": "Barding: Chain mail",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-splint",
+        "name": "Barding: Splint",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "barding-plate",
+        "name": "Barding: Plate",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "bit-and-bridle",
+        "name": "Bit and bridle",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "carriage",
+        "name": "Carriage",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cart",
+        "name": "Cart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chariot",
+        "name": "Chariot",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "animal-feed-1-day",
+        "name": "Animal Feed (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-exotic",
+        "name": "Saddle, Exotic",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-military",
+        "name": "Saddle, Military",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddle-pack",
+        "name": "Saddle, Pack",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "riding",
+        "name": "Riding",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "saddlebags",
+        "name": "Saddlebags",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sled",
+        "name": "Sled",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "stabling-1-day",
+        "name": "Stabling (1 day)",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wagon",
+        "name": "Wagon",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "land-vehicles",
+    "name": "Land Vehicles",
+    "equipment": [
+      {
+        "index": "carriage",
+        "name": "Carriage",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "cart",
+        "name": "Cart",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "chariot",
+        "name": "Chariot",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sled",
+        "name": "Sled",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wagon",
+        "name": "Wagon",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "waterborne-vehicles",
+    "name": "Waterborne Vehicles",
+    "equipment": [
+      {
+        "index": "galley",
+        "name": "Galley",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "keelboat",
+        "name": "Keelboat",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "longship",
+        "name": "Longship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rowboat",
+        "name": "Rowboat",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "sailing-ship",
+        "name": "Sailing ship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "warship",
+        "name": "Warship",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "arcane-foci",
+    "name": "Arcane Foci",
+    "equipment": [
+      {
+        "index": "crystal",
+        "name": "Crystal",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "orb",
+        "name": "Orb",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "rod",
+        "name": "Rod",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "staff",
+        "name": "Staff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wand",
+        "name": "Wand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "druidic-foci",
+    "name": "Druidic Foci",
+    "equipment": [
+      {
+        "index": "sprig-of-mistletoe",
+        "name": "Sprig of mistletoe",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "totem",
+        "name": "Totem",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "wooden-staff",
+        "name": "Wooden staff",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "yew-wand",
+        "name": "Yew wand",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "holy-symbols",
+    "name": "Holy Symbols",
+    "equipment": [
+      {
+        "index": "amulet",
+        "name": "Amulet",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "emblem",
+        "name": "Emblem",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      },
+      {
+        "index": "reliquary",
+        "name": "Reliquary",
+        "file": "src/5e-SRD-Equipment-Categories.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "equipment": [
+      {
+        "index": "amulet-of-health",
+        "name": "Amulet of Health",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "amulet-of-proof-against-detection-and-location",
+        "name": "Amulet of Proof against Detection and Location",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "amulet-of-the-planes",
+        "name": "Amulet of the Planes",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "apparatus-of-the-crab",
+        "name": "Apparatus of the Crab",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bag-of-beans",
+        "name": "Bag of Beans",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bag-of-devouring",
+        "name": "Bag of Devouring",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bag-of-holding",
+        "name": "Bag of Holding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bag-of-tricks",
+        "name": "Bag of Tricks",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bead-of-force",
+        "name": "Bead of Force",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "belt-of-dwarvenkind",
+        "name": "Belt of Dwarvenkind",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "belt-of-giant-strength",
+        "name": "Belt of Giant Strength",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "boots-of-elvenkind",
+        "name": "Boots of Elvenkind",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "boots-of-levitation",
+        "name": "Boots of Levitation",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "boots-of-speed",
+        "name": "Boots of Speed",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "boots-of-striding-and-springing",
+        "name": "Boots of Striding and Springing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "boots-of-the-winterlands",
+        "name": "Boots of the Winterlands",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bowl-of-commanding-water-elementals",
+        "name": "Bowl of Commanding Water Elementals",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bracers-of-archery",
+        "name": "Bracers of Archery",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "bracers-of-defense",
+        "name": "Bracers of Defense",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "brazier-of-commanding-fire-elementals",
+        "name": "Brazier of Commanding Fire Elementals",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "brooch-of-shielding",
+        "name": "Brooch of Shielding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "broom-of-flying",
+        "name": "Broom of Flying",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "candle-of-invocation",
+        "name": "Candle of Invocation",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cape-of-the-mountebank",
+        "name": "Cape of the Mountebank",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "carpet-of-flying",
+        "name": "Carpet of Flying",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "censer-of-controlling-air-elementals",
+        "name": "Censer of Controlling Air Elementals",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "chime-of-opening",
+        "name": "Chime of Opening",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "circlet-of-blasting",
+        "name": "Circlet of Blasting",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-arachnida",
+        "name": "Cloak of Arachnida",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-displacement",
+        "name": "Cloak of Displacement",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-elvenkind",
+        "name": "Cloak of Elvenkind",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-protection",
+        "name": "Cloak of Protection",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-the-bat",
+        "name": "Cloak of the Bat",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cloak-of-the-manta-ray",
+        "name": "Cloak of the Manta Ray",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "crystal-ball",
+        "name": "Crystal Ball",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cube-of-force",
+        "name": "Cube of Force",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "cubic-gate",
+        "name": "Cubic Gate",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "decanter-of-endless-water",
+        "name": "Decanter of Endless Water",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "deck-of-illusions",
+        "name": "Deck of Illusions",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "deck-of-many-things",
+        "name": "Deck of Many Things",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dimensional-shackles",
+        "name": "Dimensional Shackles",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dust-of-disappearance",
+        "name": "Dust of Disappearance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dust-of-dryness",
+        "name": "Dust of Dryness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "dust-of-sneezing-and-choking",
+        "name": "Dust of Sneezing and Choking",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "efficient-quiver",
+        "name": "Efficient Quiver",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "efreeti-bottle",
+        "name": "Efreeti Bottle",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "elemental-gem",
+        "name": "Elemental Gem",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "eversmoking-bottle",
+        "name": "Eversmoking Bottle",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "eyes-of-charming",
+        "name": "Eyes of Charming",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "eyes-of-minute-seeing",
+        "name": "Eyes of Minute Seeing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "eyes-of-the-eagle",
+        "name": "Eyes of the Eagle",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "feather-token",
+        "name": "Feather Token",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "figurine-of-wondrous-power",
+        "name": "Figurine of Wondrous Power",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "folding-boat",
+        "name": "Folding Boat",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "gauntlets-of-ogre-power",
+        "name": "Gauntlets of Ogre Power",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "gem-of-brightness",
+        "name": "Gem of Brightness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "gem-of-seeing",
+        "name": "Gem of Seeing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "gloves-of-missile-snaring",
+        "name": "Gloves of Missile Snaring",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "gloves-of-swimming-and-climbing",
+        "name": "Gloves of Swimming and Climbing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "goggles-of-night",
+        "name": "Goggles of Night",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "handy-haversack",
+        "name": "Handy Haversack",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "hat-of-disguise",
+        "name": "Hat of Disguise",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "headband-of-intellect",
+        "name": "Headband of Intellect",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "helm-of-brilliance",
+        "name": "Helm of Brilliance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "helm-of-comprehending-languages",
+        "name": "Helm of Comprehending Languages",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "helm-of-telepathy",
+        "name": "Helm of Telepathy",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "helm-of-teleportation",
+        "name": "Helm of Teleportation",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "horn-of-blasting",
+        "name": "Horn of Blasting",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "horn-of-valhalla",
+        "name": "Horn of Valhalla",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "horseshoes-of-a-zephyr",
+        "name": "Horseshoes of a Zephyr",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "horseshoes-of-speed",
+        "name": "Horseshoes of Speed",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "instant-fortress",
+        "name": "Instant Fortress",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ioun-stone",
+        "name": "Ioun Stone",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "iron-bands-of-binding",
+        "name": "Iron Bands of Binding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "iron-flask",
+        "name": "Iron Flask",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "lantern-of-revealing",
+        "name": "Lantern of Revealing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mantle-of-spell-resistance",
+        "name": "Mantle of Spell Resistance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "manual-of-bodily-health",
+        "name": "Manual of Bodily Health",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "manual-of-gainful-exercise",
+        "name": "Manual of Gainful Exercise",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "manual-of-golems",
+        "name": "Manual of Golems",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "manual-of-quickness-of-action",
+        "name": "Manual of Quickness of Action",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "marvelous-pigments",
+        "name": "Marvelous Pigments",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "medallion-of-thoughts",
+        "name": "Medallion of Thoughts",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "mirror-of-life-trapping",
+        "name": "Mirror of Life Trapping",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "necklace-of-adaptation",
+        "name": "Necklace of Adaptation",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "necklace-of-fireballs",
+        "name": "Necklace of Fireballs",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "necklace-of-prayer-beads",
+        "name": "Necklace of Prayer Beads",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "pearl-of-power",
+        "name": "Pearl of Power",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "periapt-of-health",
+        "name": "Periapt of Health",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "periapt-of-proof-against-poison",
+        "name": "Periapt of Proof against Poison",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "periapt-of-wound-closure",
+        "name": "Periapt of Wound Closure",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "pipes-of-haunting",
+        "name": "Pipes of Haunting",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "pipes-of-the-sewers",
+        "name": "Pipes of the Sewers",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "portable-hole",
+        "name": "Portable Hole",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "restorative-ointment",
+        "name": "Restorative Ointment",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "robe-of-eyes",
+        "name": "Robe of Eyes",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "robe-of-scintillating-colors",
+        "name": "Robe of Scintillating Colors",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "robe-of-stars",
+        "name": "Robe of Stars",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "robe-of-the-archmagi",
+        "name": "Robe of the Archmagi",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "robe-of-useful-items",
+        "name": "Robe of Useful Items",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rope-of-climbing",
+        "name": "Rope of Climbing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rope-of-entanglement",
+        "name": "Rope of Entanglement",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "scarab-of-protection",
+        "name": "Scarab of Protection",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "slippers-of-spider-climbing",
+        "name": "Slippers of Spider Climbing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sovereign-glue",
+        "name": "Sovereign Glue",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "sphere-of-annihilation",
+        "name": "Sphere of Annihilation",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "stone-of-controlling-earth-elementals",
+        "name": "Stone of Controlling Earth Elementals",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "stone-of-good-luck-(luckstone)",
+        "name": "Stone of Good Luck (Luckstone)",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "talisman-of-pure-good",
+        "name": "Talisman of Pure Good",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "talisman-of-the-sphere",
+        "name": "Talisman of the Sphere",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "talisman-of-ultimate-evil",
+        "name": "Talisman of Ultimate Evil",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "tome-of-clear-thought",
+        "name": "Tome of Clear Thought",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "tome-of-leadership-and-influence",
+        "name": "Tome of Leadership and Influence",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "tome-of-understanding",
+        "name": "Tome of Understanding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "universal-solvent",
+        "name": "Universal Solvent",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "well-of-many-worlds",
+        "name": "Well of Many Worlds",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wind-fan",
+        "name": "Wind Fan",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "winged-boots",
+        "name": "Winged Boots",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wings-of-flying",
+        "name": "Wings of Flying",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "orb-of-dragonkind",
+        "name": "Orb of Dragonkind",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "rod",
+    "name": "Rod",
+    "equipment": [
+      {
+        "index": "immovable-rod",
+        "name": "Immovable Rod",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rod-of-absorption",
+        "name": "Rod of Absorption",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rod-of-alertness",
+        "name": "Rod of Alertness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rod-of-lordly-might",
+        "name": "Rod of Lordly Might",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rod-of-rulership",
+        "name": "Rod of Rulership",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "rod-of-security",
+        "name": "Rod of Security",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "potion",
+    "name": "Potion",
+    "equipment": [
+      {
+        "index": "oil-of-etherealness",
+        "name": "Oil of Etherealness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "oil-of-sharpness",
+        "name": "Oil of Sharpness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "oil-of-slipperiness",
+        "name": "Oil of Slipperiness",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "philter-of-love",
+        "name": "Philter of Love",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-animal-friendship",
+        "name": "Potion of Animal Friendship",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-clairvoyance",
+        "name": "Potion of Clairvoyance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-climbing",
+        "name": "Potion of Climbing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-diminution",
+        "name": "Potion of Diminution",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-flying",
+        "name": "Potion of Flying",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-gaseous-form",
+        "name": "Potion of Gaseous Form",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-giant-strength",
+        "name": "Potion of Giant Strength",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-growth",
+        "name": "Potion of Growth",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-healing",
+        "name": "Potion of Healing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-heroism",
+        "name": "Potion of Heroism",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-invisibility",
+        "name": "Potion of Invisibility",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-mind-reading",
+        "name": "Potion of Mind Reading",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-poison",
+        "name": "Potion of Poison",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-resistance",
+        "name": "Potion of Resistance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-speed",
+        "name": "Potion of Speed",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "potion-of-water-breathing",
+        "name": "Potion of Water Breathing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "ring",
+    "name": "Ring",
+    "equipment": [
+      {
+        "index": "ring-of-animal-influence",
+        "name": "Ring of Animal Influence",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-djinni-summoning",
+        "name": "Ring of Djinni Summoning",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-elemental-command",
+        "name": "Ring of Elemental Command",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-evasion",
+        "name": "Ring of Evasion",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-feather-falling",
+        "name": "Ring of Feather Falling",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-free-action",
+        "name": "Ring of Free Action",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-invisibility",
+        "name": "Ring of Invisibility",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-jumping",
+        "name": "Ring of Jumping",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-mind-shielding",
+        "name": "Ring of Mind Shielding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-protection",
+        "name": "Ring of Protection",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-regeneration",
+        "name": "Ring of Regeneration",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-resistance",
+        "name": "Ring of Resistance",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-shooting-stars",
+        "name": "Ring of Shooting Stars",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-spell-storing",
+        "name": "Ring of Spell Storing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-spell-turning",
+        "name": "Ring of Spell Turning",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-swimming",
+        "name": "Ring of Swimming",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-telekinesis",
+        "name": "Ring of Telekinesis",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-the-ram",
+        "name": "Ring of the Ram",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-three-wishes",
+        "name": "Ring of Three Wishes",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-warmth",
+        "name": "Ring of Warmth",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-water-walking",
+        "name": "Ring of Water Walking",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "ring-of-x-ray-vision",
+        "name": "Ring of X-ray Vision",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "scroll",
+    "name": "Scroll",
+    "equipment": [
+      {
+        "index": "spell-scroll",
+        "name": "Spell Scroll",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "staff",
+    "name": "Staff",
+    "equipment": [
+      {
+        "index": "staff-of-charming",
+        "name": "Staff of Charming",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-fire",
+        "name": "Staff of Fire",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-frost",
+        "name": "Staff of Frost",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-healing",
+        "name": "Staff of Healing",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-power",
+        "name": "Staff of Power",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-striking",
+        "name": "Staff of Striking",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-swarming-insects",
+        "name": "Staff of Swarming Insects",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-the-magi",
+        "name": "Staff of the Magi",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-the-python",
+        "name": "Staff of the Python",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-the-woodlands",
+        "name": "Staff of the Woodlands",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-thunder-and-lightning",
+        "name": "Staff of Thunder and Lightning",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "staff-of-withering",
+        "name": "Staff of Withering",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  },
+  {
+    "index": "wand",
+    "name": "Wand",
+    "equipment": [
+      {
+        "index": "wand-of-binding",
+        "name": "Wand of Binding",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-enemy-detection",
+        "name": "Wand of Enemy Detection",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-fear",
+        "name": "Wand of Fear",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-fireballs",
+        "name": "Wand of Fireballs",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-lightning-bolts",
+        "name": "Wand of Lightning Bolts",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-magic-detection",
+        "name": "Wand of Magic Detection",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-magic-missiles",
+        "name": "Wand of Magic Missiles",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-paralysis",
+        "name": "Wand of Paralysis",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-polymorph",
+        "name": "Wand of Polymorph",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-secrets",
+        "name": "Wand of Secrets",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-the-war-mage",
+        "name": "Wand of the War Mage, +1, +2, or +3",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-web",
+        "name": "Wand of Web",
+        "file": "src/5e-SRD-Magic-Items.json"
+      },
+      {
+        "index": "wand-of-wonder",
+        "name": "Wand of Wonder",
+        "file": "src/5e-SRD-Magic-Items.json"
+      }
+    ],
+    "file": "src/5e-SRD-Equipment-Categories.json"
+  }
+]
