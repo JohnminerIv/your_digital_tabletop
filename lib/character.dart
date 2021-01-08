@@ -185,7 +185,8 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
     bool valid = true;
     playerCharacter.raceInfoOptions.forEach((key, value) {
       print(value.runtimeType);
-      if (value is HashMap<dynamic, dynamic>) {
+      if (!(value is String)) {
+        print("hi");
         int checkMarkCount = 0;
         value.forEach((secondkey, secondvalue) {
           if (secondvalue is bool) {
@@ -195,17 +196,17 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
           }
         });
         if (key == "subraces") {
-          if (checkMarkCount != 1) {
+          print("subraces");
+          if (value.length == 0) {
+          } else if (checkMarkCount != 1) {
             valid = false;
-            if (value.length == 0) {
-              valid = true;
-            }
-          } else {
-            if (value["choiceAmount"] != checkMarkCount) {
-              print(value["choiceAmount"]);
-              print(checkMarkCount);
-              valid = false;
-            }
+          }
+        } else {
+          if (value["choiceAmount"] != checkMarkCount) {
+            print(value);
+            print(value["choiceAmount"]);
+            print(checkMarkCount);
+            valid = false;
           }
         }
       }
@@ -213,7 +214,12 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
     raceColumn.children.add(Row(
       children: [
         FlatButton(
-            onPressed: valid ? _submitButton() : null, child: Text("Submit"))
+            onPressed: valid
+                ? () {
+                    _submitButton();
+                  }
+                : null,
+            child: Text("Submit"))
       ],
     ));
     return raceColumn;
@@ -273,11 +279,11 @@ class PlayerCharacterClass extends StatefulWidget {
       : super(key: key);
 
   @override
-  _PlayerCharacterClass createState() => _PlayerCharacterClass(
-      classesJson: classesJson, playerCharacter: playerCharacter);
+  _PlayerCharacterClass createState() => _PlayerCharacterClass( classesJson, playerCharacter);
 }
 
 class _PlayerCharacterClass extends State<PlayerCharacterClass> {
+  _PlayerCharacterClass(this.classesJson, this.playerCharacter);
   List<dynamic> classesJson;
   PlayerCharacter playerCharacter;
 
@@ -285,7 +291,7 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
     setState(() {
       if (playerCharacter.classInfo == null) {
         playerCharacter.classInfo = widget.classesJson[index];
-      } else if (playerCharacter.raceInfo["index"] ==
+      } else if (playerCharacter.classInfo["index"] ==
           widget.classesJson[index]["index"]) {
         playerCharacter.classInfo = {};
       } else {
@@ -321,65 +327,41 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
       resetButtons = false;
     }
     playerCharacter.classInfo.forEach((k, v) {
-      if (k.contains("options")) {
+      if (k.contains("choices")) {
         classColumn.children.add(Row(
           children: [Text(k)],
         ));
-        playerCharacter.classInfoOptions[k] = {};
-        int choiceAmount = playerCharacter.classInfo[k]["choose"];
-        playerCharacter.classInfoOptions[k]["choiceAmount"] = choiceAmount;
-        classColumn.children.add(Row(
-          children: [Text("Choose $choiceAmount from: ")],
-        ));
-
-        for (var i = 0; i < playerCharacter.classInfo[k]["from"].length; i++) {
-          if (resetButtons == true) {
-            playerCharacter.classInfoOptions[k]
-                [playerCharacter.classInfo[k]["from"][i]["name"]] = false;
-          }
+        for (var t = 0; t < playerCharacter.classInfo[k].length; t++){
+          playerCharacter.classInfoOptions["k$t"] = {};
+          int choiceAmount = playerCharacter.classInfo[k][t]["choose"];
+          playerCharacter.classInfoOptions["k$t"]["choiceAmount"] = choiceAmount;
           classColumn.children.add(Row(
-            children: [
-              Text(playerCharacter.classInfo[k]["from"][i]["name"]),
-              Checkbox(
-                  value: playerCharacter.classInfoOptions[k]
-                      [playerCharacter.classInfo[k]["from"][i]["name"]],
-                  onChanged: (bool newValue) {
-                    setState(() {
-                      playerCharacter.classInfoOptions[k][playerCharacter
-                          .classInfo[k]["from"][i]["name"]] = newValue;
-                    });
-                  })
-            ],
+            children: [Text("Choose $choiceAmount from: ")],
           ));
+
+          for (var i = 0; i < playerCharacter.classInfo[k][t]["from"].length; i++) {
+            if (resetButtons == true) {
+              playerCharacter.classInfoOptions["k$t"]
+              [playerCharacter.classInfo[k][t]["from"][i]["name"]] = false;
+            }
+            classColumn.children.add(Row(
+              children: [
+                Text(playerCharacter.classInfo[k][t]["from"][i]["name"]),
+                Checkbox(
+                    value: playerCharacter.classInfoOptions["k$t"]
+                    [playerCharacter.classInfo[k][t]["from"][i]["name"]],
+                    onChanged: (bool newValue) {
+                      setState(() {
+                        playerCharacter.classInfoOptions["k$t"][playerCharacter
+                            .classInfo[k][t]["from"][i]["name"]] = newValue;
+                      });
+                    })
+              ],
+            ));
+          }
         }
       }
     });
-    if (playerCharacter.classInfo["subclasss"].length == 0) {
-      classColumn.children.add(Row(
-        children: [Text("No subclasses")],
-      ));
-    } else {
-      playerCharacter.classInfoOptions["subclasss"] = {};
-      playerCharacter.classInfo["subclasss"].forEach((m) {
-        if (resetButtons == true) {
-          playerCharacter.classInfoOptions["subclasss"][m["index"]] = false;
-        }
-        classColumn.children.add(Row(
-          children: [
-            Text(m["index"]),
-            Checkbox(
-                value: playerCharacter.classInfoOptions["subclasss"]
-                    [m["index"]],
-                onChanged: (bool newValue) {
-                  setState(() {
-                    playerCharacter.classInfoOptions["subclasss"][m["index"]] =
-                        newValue;
-                  });
-                })
-          ],
-        ));
-      });
-    }
     bool valid = true;
     playerCharacter.classInfoOptions.forEach((key, value) {
       if (value is Map) {
@@ -391,26 +373,22 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
             }
           }
         });
-        if (key == "subclasses") {
-          if (checkMarkCount != 1) {
-            valid = false;
-          } else {
-            if (value["choiceAmount"] != checkMarkCount) valid = false;
-          }
-        }
+          if (value["choiceAmount"] != checkMarkCount) {valid = false;}
       }
     });
     classColumn.children.add(Row(
       children: [
         FlatButton(
-            onPressed: valid ? (){_submitButton();} : null, child: Text("Submit"))
+            onPressed: valid
+                ? () {
+                    _submitButton();
+                  }
+                : null,
+            child: Text("Submit"))
       ],
     ));
     return classColumn;
   }
-
-  _PlayerCharacterClass(
-      {List<dynamic> classesJson, PlayerCharacter playerCharacter});
 
   @override
   Widget build(BuildContext context) {

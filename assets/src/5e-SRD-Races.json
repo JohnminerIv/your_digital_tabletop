@@ -571,6 +571,7 @@
       "type": "ability_bonuses",
       "from": [
         {
+          "name": "STR",
           "ability_score": {
             "index": "str",
             "name": "STR",
@@ -579,6 +580,7 @@
           "bonus": 1
         },
         {
+          "name": "DEX",
           "ability_score": {
             "index": "dex",
             "name": "DEX",
@@ -587,6 +589,7 @@
           "bonus": 1
         },
         {
+          "name": "CON",
           "ability_score": {
             "index": "con",
             "name": "CON",
@@ -595,6 +598,7 @@
           "bonus": 1
         },
         {
+          "name": "INT",
           "ability_score": {
             "index": "int",
             "name": "INT",
@@ -603,6 +607,7 @@
           "bonus": 1
         },
         {
+          "name": "WIS",
           "ability_score": {
             "index": "wis",
             "name": "WIS",
