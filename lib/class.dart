@@ -6,7 +6,7 @@ import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
 
 import 'utils.dart' show PlayerCharacter, loadTextFromFile;
-
+import 'background.dart' show PlayerCharacterBackground;
 
 class PlayerCharacterClass extends StatefulWidget {
   final title = "Classes";
@@ -41,10 +41,10 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
   }
 
   _submitButton() {
-    loadTextFromFile('assets/src/5e-SRD-Classes.json').then(
+    loadTextFromFile('assets/src/backgrounds.json').then(
             (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return PlayerCharacterClass(
-              classesJson: jsonDecode(data),
+          return PlayerCharacterBackground(
+              backgroundJson: jsonDecode(data),
               playerCharacter: playerCharacter);
         })));
   }
