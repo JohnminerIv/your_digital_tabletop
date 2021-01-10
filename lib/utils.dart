@@ -33,12 +33,12 @@ class PlayerCharacter {
     },
     "proficiencies": {
       "savingThrows": {
-        "str": 0,
-        "dex": 0,
-        "con": 0,
-        "int": 0,
-        "wis": 0,
-        "cha": 0
+        "str": false,
+        "dex": false,
+        "con": false,
+        "int": false,
+        "wis": false,
+        "cha": false
       },
       "skills": {
         "str": {"Athletics": false},
@@ -70,7 +70,7 @@ class PlayerCharacter {
         },
         "con": {}
       },
-      "language": {},
+      "language": [],
       "equipment": {"tools": [], "weapons": [], "armor": []}
     },
     "background": {
@@ -92,11 +92,81 @@ class PlayerCharacter {
     ]
   };
 
+  profSwitch(profs) {
+    switch (profs[0]["type"]) {
+      case "Armor":
+        {
+          characterSheet["proficiencies"]["equipment"]["armor"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Weapons":
+        {
+          characterSheet["proficiencies"]["equipment"]["weapons"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Artisan's Tools":
+        {
+          characterSheet["proficiencies"]["equipment"]["tools"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Gaming Sets":
+        {
+          characterSheet["proficiencies"]["equipment"]["tools"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Musical Instruments":
+        {
+          characterSheet["proficiencies"]["equipment"]["tools"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Other":
+        {
+          characterSheet["proficiencies"]["equipment"]["tools"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Vehicles":
+        {
+          characterSheet["proficiencies"]["equipment"]["tools"] =
+          profs[0]["name"];
+        }
+        break;
+      case "Saving Throws":
+        {
+          characterSheet["proficiencies"]["savingThrows"]
+          [profs[0]["references"][0]["index"]] = true;
+        }
+        break;
+      case "Skills":
+        {
+          characterSheet["proficiencies"]["skills"].forEach((k, v) {
+            if (v.containsKey(profs[0]["references"][0]["Name"])) {
+              v[profs[0]["references"][0]["Name"]] = true;
+            }
+          });
+          break;
+        }
+        defualt:
+        {
+          print("Wow you suck at coding");
+        }
+    }
+  }
+
   setRaceInfo() async {
-    var proficiencies = jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Proficiencies.json"));
-    var traits = jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Traits.json"));
-    var subraces = jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Subraces.json"));
-    var spells = jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Subraces.json"));
+    var proficiencies = jsonDecode(
+        await loadTextFromFile("assets/src/5e-SRD-Proficiencies.json"));
+    var traits =
+    jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Traits.json"));
+    var subraces =
+    jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Subraces.json"));
+    var spells =
+    jsonDecode(await loadTextFromFile("assets/src/5e-SRD-Subraces.json"));
     characterSheet["race"] = raceInfo["name"];
     characterSheet["speed"] = raceInfo["speed"];
     raceInfo["ability_bonuses"].forEach((m) {
@@ -105,8 +175,103 @@ class PlayerCharacter {
     });
     characterSheet["size"] = raceInfo["size"];
     raceInfo["starting_proficiencies"].forEach((item) {
-      proficiencies.where((m) => m["index"] == item["index"])[0]["type"];
+      var profs = proficiencies.where((m) => m["index"] == item["index"]);
+      profSwitch(profs);
     });
+
+    raceInfoOptions.forEach((key, value) {
+      if (key.contains("options")) {
+        value.forEach((k, v) {
+          if (value == true) {
+            var choice = raceInfo[key]["from"].where((m) => m["name"] == k);
+            switch (raceInfo[key]) {
+              case "proficiencies":
+                {
+                  var profs = proficiencies.where((m) =>
+                  m["index"] == choice["index"]);
+                  profSwitch(profs);
+                }
+                break;
+              case "languages":
+                {
+                  characterSheet["proficiencies"]["language"].add(
+                      choice["name"]);
+                }
+                break;
+              case "trait":
+                {
+                  var trait = traits.where((m) =>
+                  m["index"] == choice["index"]);
+                  characterSheet["featuresTraits"][trait[0]["name"]] =
+                  trait[0]["desc"];
+                  trait["proficiencies"].forEach((prof) {
+                    var profs = proficiencies.where((m) =>
+                    m["index"] == prof["index"]);
+                    profSwitch(profs);
+                  });
+                }
+                break;
+              case "ability_bonuses":
+                {
+                  characterSheet["stats"].update(
+                      choice["ability_score"]["index"], (dynamic val) => val + choice["bonus"]);
+                }
+                break;
+                defualt:
+                {
+                  print("You suck at coding!")
+                }
+            }
+          }
+        });
+      }
+    });
+    raceInfo["languages"].forEach((m){
+      characterSheet["proficiencies"]["language"].add(m["name"]);
+    });
+    raceInfo["traits"].forEach((m){
+      var trait = traits.where((tm) =>
+      tm["index"] == m["index"]);
+      characterSheet["featuresTraits"][trait[0]["name"]] =
+      trait[0]["desc"];
+      trait["proficiencies"].forEach((prof) {
+        var profs = proficiencies.where((m) =>
+        m["index"] == prof["index"]);
+        profSwitch(profs);
+      });
+    });
+    if (raceInfoOptions.containsKey("subraces")){
+      raceInfoOptions["subraces"].forEach((key, value){
+        if (value == true){
+          var subrace = raceInfo["subraces"].where((m) => m["name"] == key);
+          var subraceInfo = subraces.where((race) => race["name"] == subrace[0]["name"]);
+          subraceInfo["ability_bonuses"].forEach((m){
+            characterSheet["stats"].update(
+                m["ability_score"]["index"], (dynamic val) => val + m["bonus"]);
+          });
+          subraceInfo["starting_proficiencies"].forEach((choice){
+            var profs = proficiencies.where((m) =>
+            m["index"] == choice["index"]);
+            profSwitch(profs);
+          });
+          subraceInfo["languages"].forEach((choice){
+            characterSheet["proficiencies"]["language"].add(
+                choice["name"]);
+          });
+          subraceInfo["racial_traits"].forEach((choice){
+            var trait = traits.where((m) =>
+            m["index"] == choice["index"]);
+            characterSheet["featuresTraits"][trait[0]["name"]] =
+            trait[0]["desc"];
+            trait["proficiencies"].forEach((prof) {
+              var profs = proficiencies.where((m) =>
+              m["index"] == prof["index"]);
+              profSwitch(profs);
+            });
+          });
+        }
+      });
+    }
   }
 }
 
