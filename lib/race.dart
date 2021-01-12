@@ -22,12 +22,13 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
   PlayerCharacter playerCharacter = PlayerCharacter();
 
   _submitButton() {
+    playerCharacter.setRaceInfo().then((nonData) =>
     loadTextFromFile('assets/src/5e-SRD-Classes.json').then(
             (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
           return PlayerCharacterClass(
               classesJson: jsonDecode(data),
               playerCharacter: playerCharacter);
-        })));
+        }))));
   }
 
   void setRaceInfo(index) {

@@ -4,19 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
-
+import 'utils.dart';
 import 'race.dart';
+import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 
-Future<String> loadTextFromFile(path) async {
-  return await rootBundle.loadString(path);
-}
+Future<String> get _localPath async {
+  final directory = await getApplicationDocumentsDirectory();
 
-class PlayerCharacter {
-  var raceInfo = {};
-  var raceInfoOptions = {};
-  var classInfo = {};
-  var classInfoOptions = {};
-  var stats = {};
+  return directory.path;
 }
 
 class PlayerCharacters extends StatefulWidget {
@@ -28,6 +24,28 @@ class PlayerCharacters extends StatefulWidget {
 
 class _PlayerCharacters extends State<PlayerCharacters> {
   List characters = ["John", "Zo"];
+  Directory dir;
+  List<FileSystemEntity> files;
+
+
+
+
+  @override
+  void initState() {
+    super.initState();
+    /*to store files temporary we use getTemporaryDirectory() but we need
+    permanent storage so we use getApplicationDocumentsDirectory() */
+    getApplicationDocumentsDirectory().then((Directory directory) {
+      dir = new Directory('${directory.path}/playerAssets/characters');
+      files = dir.listSync();
+      files.forEach((sE) {
+        print(sE);
+        setState(() {
+          characters.add(sE.path);
+        });
+      });
+    });
+  }
 
   _addCharacter() {
     loadTextFromFile('assets/src/5e-SRD-Races.json').then(
@@ -61,6 +79,3 @@ class _PlayerCharacters extends State<PlayerCharacters> {
     );
   }
 }
-
-
-

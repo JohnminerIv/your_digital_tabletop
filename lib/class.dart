@@ -41,12 +41,14 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
   }
 
   _submitButton() {
+    print(playerCharacter.classInfoOptions);
+    playerCharacter.setClassInfo().then((nonData) =>
     loadTextFromFile('assets/src/backgrounds.json').then(
             (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
           return PlayerCharacterBackground(
               backgroundJson: jsonDecode(data),
               playerCharacter: playerCharacter);
-        })));
+        }))));
   }
 
   Column generateClassLayout(index) {
@@ -72,11 +74,11 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
           children: [Text(k)],
         ));
         for (var t = 0; t < playerCharacter.classInfo[k].length; t++) {
-          if (playerCharacter.classInfoOptions["k$t"] == null) {
-            playerCharacter.classInfoOptions["k$t"] = {};
+          if (playerCharacter.classInfoOptions["$k$t"] == null) {
+            playerCharacter.classInfoOptions["$k$t"] = {};
           }
           int choiceAmount = playerCharacter.classInfo[k][t]["choose"];
-          playerCharacter.classInfoOptions["k$t"]["choiceAmount"] =
+          playerCharacter.classInfoOptions["$k$t"]["choiceAmount"] =
               choiceAmount;
           classColumn.children.add(Row(
             children: [Text("Choose $choiceAmount from: ")],
@@ -86,18 +88,18 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
           i < playerCharacter.classInfo[k][t]["from"].length;
           i++) {
             if (resetButtons == true) {
-              playerCharacter.classInfoOptions["k$t"]
+              playerCharacter.classInfoOptions["$k$t"]
               [playerCharacter.classInfo[k][t]["from"][i]["name"]] = false;
             }
             classColumn.children.add(Row(
               children: [
                 Text(playerCharacter.classInfo[k][t]["from"][i]["name"]),
                 Checkbox(
-                    value: playerCharacter.classInfoOptions["k$t"]
+                    value: playerCharacter.classInfoOptions["$k$t"]
                     [playerCharacter.classInfo[k][t]["from"][i]["name"]],
                     onChanged: (bool newValue) {
                       setState(() {
-                        playerCharacter.classInfoOptions["k$t"][playerCharacter
+                        playerCharacter.classInfoOptions["$k$t"][playerCharacter
                             .classInfo[k][t]["from"][i]["name"]] = newValue;
                       });
                     })
