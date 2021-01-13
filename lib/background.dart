@@ -96,7 +96,7 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
     }
     return ListView.separated(
         itemBuilder: (BuildContext context, int index) {
-          return Container(color: Colors.amber, child: bgList[index]);
+          return Container(color: Colors.lightBlueAccent, child: bgList[index]);
         },
         separatorBuilder: (BuildContext context, int index) => const Divider(),
         itemCount: bgList.length);
@@ -352,7 +352,7 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
 
     return ListView.separated(
         itemBuilder: (BuildContext context, int index) {
-          return Container(color: Colors.amber, child: bgForm[index]);
+          return Container(color: Colors.lightBlueAccent, child: bgForm[index]);
         },
         separatorBuilder: (BuildContext context, int index) => const Divider(),
         itemCount: bgForm.length);
@@ -457,7 +457,7 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
             return Container(
               width: 50,
               height: 30,
-              color: Colors.amber,
+              color: Colors.lightBlueAccent,
               alignment: Alignment.center,
               child: userOrderedStats[key] != 0
                   ? Draggable<int>(
@@ -503,7 +503,7 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
             return Container(
               width: 50,
               height: 30,
-              color: Colors.amber,
+              color: Colors.lightBlueAccent,
               alignment: Alignment.center,
               child: statsThing[key] != 0
                   ? Draggable<int>(

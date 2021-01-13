@@ -1,6 +1,8 @@
 # your_digital_tabletop
 
 A digital tabletop to play roleplaying games.
+Link to youtube video demonstraiting the application.
+https://www.youtube.com/watch?v=WQNjw_uGEgU
 
 ## Getting Started
 

@@ -147,7 +147,7 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
       body: ListView.separated(
           itemBuilder: (BuildContext context, int index) {
             return Container(
-                color: Colors.amber,
+                color: Colors.lightBlueAccent,
                 child: (playerCharacter.classInfo.length == 0 ||
                     playerCharacter.classInfo != classesJson[index])
                     ? Row(children: [

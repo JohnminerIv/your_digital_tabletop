@@ -183,7 +183,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
       body: ListView.separated(
           itemBuilder: (BuildContext context, int index) {
             return Container(
-                color: Colors.amber,
+                color: Colors.lightBlueAccent,
                 child: (playerCharacter.raceInfo.length == 0 ||
                     playerCharacter.raceInfo != widget.racesJson[index])
                     ? Row(children: [
