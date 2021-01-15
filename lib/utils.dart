@@ -1,11 +1,9 @@
-import 'dart:collection';
-import 'dart:convert' show jsonDecode, jsonEncode;
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'dart:async' show Future;
+import 'dart:convert' show jsonDecode, jsonEncode;
+import 'dart:io';
+
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
-import 'dart:io';
 
 class PlayerCharacter {
   var raceInfo = {};
@@ -104,7 +102,7 @@ class PlayerCharacter {
   Future<File> get _localFile async {
     final path = await _localPath;
     new File('$path/playerAssets/characters/${characterSheet["name"]}.json')
-            .createSync(recursive: true);
+        .createSync(recursive: true);
     return File('$path/playerAssets/characters/${characterSheet["name"]}.json');
   }
 

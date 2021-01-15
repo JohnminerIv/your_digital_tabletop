@@ -1,14 +1,13 @@
-import 'dart:collection';
+import 'dart:async' show Future;
 import 'dart:convert' show jsonDecode;
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'dart:async' show Future;
-import 'package:flutter/services.dart' show rootBundle;
-import 'utils.dart';
-import 'dart:math';
-import 'race.dart';
 import 'package:path_provider/path_provider.dart';
-import 'dart:io';
+
+import 'race.dart';
+import 'utils.dart';
 
 Future<String> get _localPath async {
   final directory = await getApplicationDocumentsDirectory();
@@ -63,7 +62,6 @@ class _PlayerCharacters extends State<PlayerCharacters> {
         itemBuilder: (BuildContext context, int index) {
           return Container(
             height: 50,
-            color: Colors.lightBlueAccent,
             child: Center(
                 child: Row(
               children: [
@@ -108,6 +106,7 @@ class _PCSheet extends State<PCSheet> {
   buildBody() {
     statsMods = {};
     json["stats"].forEach((key, value) {
+      print(value);
       statsMods[key] = ((value - 10) / 2).floor();
     });
     Column column = new Column(

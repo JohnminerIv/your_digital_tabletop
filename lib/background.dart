@@ -1,11 +1,7 @@
-import 'dart:collection';
-import 'dart:convert' show jsonDecode;
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'dart:async' show Future;
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:your_digital_tabletop/character.dart';
-import 'dart:math';
 
 import 'utils.dart' show PlayerCharacter, loadTextFromFile;
 
@@ -363,11 +359,9 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
     playerCharacter.characterSheet["equipment"]["tools"].add(equipment);
     playerCharacter.characterSheet["featuresTraits"][feature] = [description];
     playerCharacter.setNullsToTrue();
-    playerCharacter.saveCharacterJson().then((data) {
-      Navigator.push(context, MaterialPageRoute(builder: (context) {
-        return PlayerCharacterStats(playerCharacter: playerCharacter);
-      }));
-    });
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return PlayerCharacterStats(playerCharacter: playerCharacter);
+    }));
   }
 
   @override
@@ -563,8 +557,11 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
 
   _submit() {
     userOrderedStats.forEach((key, value) {
-      playerCharacter.characterSheet["stats"][key] += value;
+      playerCharacter.characterSheet["stats"][key] =
+          value + playerCharacter.characterSheet["stats"][key];
+      print(playerCharacter.characterSheet["stats"][key]);
     });
+    playerCharacter.saveCharacterJson();
     var count = 0;
     Navigator.popUntil(context, (route) {
       return count++ == 5;

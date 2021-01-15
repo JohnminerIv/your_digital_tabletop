@@ -1,14 +1,11 @@
-import 'dart:collection';
 import 'dart:convert' show jsonDecode;
+
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'dart:async' show Future;
-import 'package:flutter/services.dart' show rootBundle;
 
 import 'class.dart';
 import 'utils.dart' show PlayerCharacter, loadTextFromFile;
 
-class PlayerCharacterRace extends StatefulWidget{
+class PlayerCharacterRace extends StatefulWidget {
   final String title = "Races";
   final List<dynamic> racesJson;
 
@@ -23,12 +20,12 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
 
   _submitButton() {
     playerCharacter.setRaceInfo().then((nonData) =>
-    loadTextFromFile('assets/src/5e-SRD-Classes.json').then(
-            (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return PlayerCharacterClass(
-              classesJson: jsonDecode(data),
-              playerCharacter: playerCharacter);
-        }))));
+        loadTextFromFile('assets/src/5e-SRD-Classes.json').then((data) =>
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return PlayerCharacterClass(
+                  classesJson: jsonDecode(data),
+                  playerCharacter: playerCharacter);
+            }))));
   }
 
   void setRaceInfo(index) {
@@ -80,7 +77,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
         for (var i = 0; i < playerCharacter.raceInfo[k]["from"].length; i++) {
           if (resetButtons == true) {
             playerCharacter.raceInfoOptions[k]
-            [playerCharacter.raceInfo[k]["from"][i]["name"]] = false;
+                [playerCharacter.raceInfo[k]["from"][i]["name"]] = false;
           }
           print(playerCharacter.raceInfoOptions[k]);
           raceColumn.children.add(Row(
@@ -88,11 +85,11 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
               Text(playerCharacter.raceInfo[k]["from"][i]["name"]),
               Checkbox(
                   value: playerCharacter.raceInfoOptions[k]
-                  [playerCharacter.raceInfo[k]["from"][i]["name"]],
+                      [playerCharacter.raceInfo[k]["from"][i]["name"]],
                   onChanged: (bool newValue) {
                     setState(() {
                       playerCharacter.raceInfoOptions[k]
-                      [playerCharacter.raceInfo[k]["from"][i]["name"]] =
+                              [playerCharacter.raceInfo[k]["from"][i]["name"]] =
                           newValue;
                     });
                   })
@@ -165,8 +162,8 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
         FlatButton(
             onPressed: valid
                 ? () {
-              _submitButton();
-            }
+                    _submitButton();
+                  }
                 : null,
             child: Text("Submit"))
       ],
@@ -185,35 +182,35 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
             return Container(
                 color: Colors.lightBlueAccent,
                 child: (playerCharacter.raceInfo.length == 0 ||
-                    playerCharacter.raceInfo != widget.racesJson[index])
+                        playerCharacter.raceInfo != widget.racesJson[index])
                     ? Row(children: [
-                  Text(widget.racesJson[index]['index']),
-                  FlatButton(
-                      onPressed: () {
-                        setRaceInfo(index);
-                      },
-                      child: Icon(Icons.add))
-                ])
-                    : Column(
-                  children: [
-                    Row(
-                      children: [
                         Text(widget.racesJson[index]['index']),
                         FlatButton(
                             onPressed: () {
                               setRaceInfo(index);
                             },
                             child: Icon(Icons.add))
-                      ],
-                    ),
-                    Row(
-                      children: [generateRaceLayout(index)],
-                    )
-                  ],
-                ));
+                      ])
+                    : Column(
+                        children: [
+                          Row(
+                            children: [
+                              Text(widget.racesJson[index]['index']),
+                              FlatButton(
+                                  onPressed: () {
+                                    setRaceInfo(index);
+                                  },
+                                  child: Icon(Icons.add))
+                            ],
+                          ),
+                          Row(
+                            children: [generateRaceLayout(index)],
+                          )
+                        ],
+                      ));
           },
           separatorBuilder: (BuildContext context, int index) =>
-          const Divider(),
+              const Divider(),
           itemCount: widget.racesJson.length),
     );
   }

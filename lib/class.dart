@@ -1,12 +1,9 @@
-import 'dart:collection';
 import 'dart:convert' show jsonDecode;
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'dart:async' show Future;
-import 'package:flutter/services.dart' show rootBundle;
 
-import 'utils.dart' show PlayerCharacter, loadTextFromFile;
+import 'package:flutter/material.dart';
+
 import 'background.dart' show PlayerCharacterBackground;
+import 'utils.dart' show PlayerCharacter, loadTextFromFile;
 
 class PlayerCharacterClass extends StatefulWidget {
   final title = "Classes";
@@ -43,12 +40,12 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
   _submitButton() {
     print(playerCharacter.classInfoOptions);
     playerCharacter.setClassInfo().then((nonData) =>
-    loadTextFromFile('assets/src/backgrounds.json').then(
-            (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return PlayerCharacterBackground(
-              backgroundJson: jsonDecode(data),
-              playerCharacter: playerCharacter);
-        }))));
+        loadTextFromFile('assets/src/backgrounds.json').then((data) =>
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return PlayerCharacterBackground(
+                  backgroundJson: jsonDecode(data),
+                  playerCharacter: playerCharacter);
+            }))));
   }
 
   Column generateClassLayout(index) {
@@ -85,18 +82,18 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
           ));
 
           for (var i = 0;
-          i < playerCharacter.classInfo[k][t]["from"].length;
-          i++) {
+              i < playerCharacter.classInfo[k][t]["from"].length;
+              i++) {
             if (resetButtons == true) {
               playerCharacter.classInfoOptions["$k$t"]
-              [playerCharacter.classInfo[k][t]["from"][i]["name"]] = false;
+                  [playerCharacter.classInfo[k][t]["from"][i]["name"]] = false;
             }
             classColumn.children.add(Row(
               children: [
                 Text(playerCharacter.classInfo[k][t]["from"][i]["name"]),
                 Checkbox(
                     value: playerCharacter.classInfoOptions["$k$t"]
-                    [playerCharacter.classInfo[k][t]["from"][i]["name"]],
+                        [playerCharacter.classInfo[k][t]["from"][i]["name"]],
                     onChanged: (bool newValue) {
                       setState(() {
                         playerCharacter.classInfoOptions["$k$t"][playerCharacter
@@ -130,8 +127,8 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
         FlatButton(
             onPressed: valid
                 ? () {
-              _submitButton();
-            }
+                    _submitButton();
+                  }
                 : null,
             child: Text("Submit"))
       ],
@@ -149,35 +146,35 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
             return Container(
                 color: Colors.lightBlueAccent,
                 child: (playerCharacter.classInfo.length == 0 ||
-                    playerCharacter.classInfo != classesJson[index])
+                        playerCharacter.classInfo != classesJson[index])
                     ? Row(children: [
-                  Text(widget.classesJson[index]['index']),
-                  FlatButton(
-                      onPressed: () {
-                        setClassInfo(index);
-                      },
-                      child: Icon(Icons.add))
-                ])
-                    : Column(
-                  children: [
-                    Row(
-                      children: [
                         Text(widget.classesJson[index]['index']),
                         FlatButton(
                             onPressed: () {
                               setClassInfo(index);
                             },
                             child: Icon(Icons.add))
-                      ],
-                    ),
-                    Row(
-                      children: [generateClassLayout(index)],
-                    )
-                  ],
-                ));
+                      ])
+                    : Column(
+                        children: [
+                          Row(
+                            children: [
+                              Text(widget.classesJson[index]['index']),
+                              FlatButton(
+                                  onPressed: () {
+                                    setClassInfo(index);
+                                  },
+                                  child: Icon(Icons.add))
+                            ],
+                          ),
+                          Row(
+                            children: [generateClassLayout(index)],
+                          )
+                        ],
+                      ));
           },
           separatorBuilder: (BuildContext context, int index) =>
-          const Divider(),
+              const Divider(),
           itemCount: widget.classesJson.length),
     );
   }
