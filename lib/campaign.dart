@@ -1,7 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 
 enum FileOptions { rename, delete }
@@ -23,7 +24,6 @@ class _CampaignState extends State<Campaign> {
   Directory dir;
   List<FileSystemEntity> fileAndFolders = [];
 
-
   FileOptions fileOption = FileOptions.rename;
   int renamingAtIndex;
 
@@ -37,7 +37,7 @@ class _CampaignState extends State<Campaign> {
         dir = new Directory('${directory.path}/playerAssets/campaigns');
         var lister = dir.list();
         lister.listen(
-              (systemEntity) {
+          (systemEntity) {
             setState(() {
               fileAndFolders.add(systemEntity);
             });
@@ -52,7 +52,7 @@ class _CampaignState extends State<Campaign> {
   updateFiles() {
     var lister = dir.list();
     lister.listen(
-          (systemEntity) {
+      (systemEntity) {
         setState(() {
           fileAndFolders.add(systemEntity);
         });
@@ -62,9 +62,7 @@ class _CampaignState extends State<Campaign> {
 
   openButton(path) {
     return FlatButton(
-      color: Theme
-          .of(context)
-          .primaryColor,
+      color: Theme.of(context).primaryColor,
       onPressed: () {
         Directory thisDir = new Directory(path);
         Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -85,9 +83,7 @@ class _CampaignState extends State<Campaign> {
 
   editButton(path) {
     return FlatButton(
-      color: Theme
-          .of(context)
-          .primaryColor,
+      color: Theme.of(context).primaryColor,
       onPressed: () {
         Directory thisDir = new Directory(path);
         Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -158,8 +154,7 @@ class _CampaignState extends State<Campaign> {
           updateFiles();
         }
       },
-      itemBuilder: (BuildContext context) =>
-      <PopupMenuEntry<FileOptions>>[
+      itemBuilder: (BuildContext context) => <PopupMenuEntry<FileOptions>>[
         const PopupMenuItem<FileOptions>(
           value: FileOptions.rename,
           child: Text('Rename'),
@@ -178,9 +173,7 @@ class _CampaignState extends State<Campaign> {
       return Scaffold(
         appBar: AppBar(title: Text(widget.title)),
         body: new CircularProgressIndicator(
-          backgroundColor: Theme
-              .of(context)
-              .accentColor,
+          backgroundColor: Theme.of(context).accentColor,
         ),
       );
     }
@@ -207,24 +200,19 @@ class _CampaignState extends State<Campaign> {
             return Container(
                 padding: EdgeInsets.only(left: 30, right: 30),
                 height: 50,
-                color: Theme
-                    .of(context)
-                    .accentColor,
+                color: Theme.of(context).accentColor,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    renamingAtIndex == index ? TextField(
-                      controller:,
-                    )
-                    Text(fileAndFolders[index].path
-                        .split("/")
-                        .last),
+                    renamingAtIndex == index
+                        ? TextField()
+                        : Text(fileAndFolders[index].path.split("/").last),
                     chooseProperButton(fileAndFolders[index])
                   ],
                 ));
           },
           separatorBuilder: (BuildContext context, int index) =>
-          const Divider(),
+              const Divider(),
         ),
         endDrawer: Drawer(
           child: Align(
@@ -302,9 +290,7 @@ class _TextEditClass extends State<TextEditClass> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    var appBar = AppBar(title: Text("${dir.path
-        .split('/')
-        .last}"));
+    var appBar = AppBar(title: Text("${dir.path.split('/').last}"));
     return Scaffold(
       appBar: appBar,
       body: TextField(
