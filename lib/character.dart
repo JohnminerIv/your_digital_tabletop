@@ -1,4 +1,3 @@
-import 'dart:async' show Future;
 import 'dart:convert' show jsonDecode;
 import 'dart:io';
 
@@ -25,35 +24,52 @@ class PlayerCharacters extends StatefulWidget {
 class _PlayerCharacters extends State<PlayerCharacters> {
   Directory dir;
   List<FileSystemEntity> files;
+  bool loaded = false;
 
   @override
   void initState() {
     super.initState();
+  }
+
+  void _loadFiles() {
+    print("Loading Character Files...");
     getApplicationDocumentsDirectory().then((Directory directory) {
+      dir = new Directory('${directory.path}/playerAssets/characters');
+      return dir.list().toList();
+    }).then((List<FileSystemEntity> filesList) {
+      files = filesList;
       setState(() {
-        dir = new Directory('${directory.path}/playerAssets/characters');
-        files = dir.listSync();
+        loaded = true;
       });
     });
   }
 
-  _addCharacter() {
-    loadTextFromFile('assets/src/5e-SRD-Races.json').then(
-        (data) => Navigator.push(context, MaterialPageRoute(builder: (context) {
+  void _addCharacter() {
+
+    loadTextFromFile('assets/src/5e-SRD-Races.json').then((data) {
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
               return PlayerCharacterRace(racesJson: jsonDecode(data));
-            })));
+            })).whenComplete(() {_loadFiles();});
+        loaded = false;
+    });
   }
 
-  showCharacter(File file) {
-    var jsonData = jsonDecode(file.readAsStringSync());
-    Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return PCSheet(json: jsonData);
-    }));
+  void _showCharacter(File file) {
+    file.readAsString().then((data) {
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return PCSheet(json: jsonDecode(data));
+      })).whenComplete(() {_loadFiles();});
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    files = dir.listSync();
+    if (loaded == false) {
+      _loadFiles();
+      return Scaffold(
+        appBar: AppBar(title: Text(widget.title)),
+      );
+    }
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView.separated(
@@ -68,7 +84,7 @@ class _PlayerCharacters extends State<PlayerCharacters> {
                 Text(files[index].path.split("/").last),
                 FlatButton(
                     onPressed: () {
-                      showCharacter(files[index]);
+                      _showCharacter(files[index]);
                     },
                     child: Icon(Icons.folder_open))
               ],

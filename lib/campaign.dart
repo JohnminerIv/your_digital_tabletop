@@ -171,7 +171,18 @@ class _CampaignState extends State<Campaign> {
   Widget build(BuildContext context) {
     if (fileAndFolders == null) {
       return Scaffold(
-        appBar: AppBar(title: Text(widget.title)),
+
+        appBar: AppBar(
+          leading: FlatButton(
+            child: Icon(Icons.arrow_back),
+            onPressed: (){
+              setState(() {
+                drawerIsOpen = false;
+              });
+              Navigator.of(context).pop();
+            },
+          ),
+            title: Text(widget.title)),
         body: new CircularProgressIndicator(
           backgroundColor: Theme.of(context).accentColor,
         ),
@@ -179,6 +190,15 @@ class _CampaignState extends State<Campaign> {
     }
     return Scaffold(
       appBar: AppBar(
+        leading: FlatButton(
+          child: Icon(Icons.arrow_back),
+          onPressed: (){
+            setState(() {
+              drawerIsOpen = false;
+            });
+            Navigator.of(context).pop();
+          },
+        ),
         title: Text(widget.title),
         actions: [
           Builder(builder: (BuildContext context) {
