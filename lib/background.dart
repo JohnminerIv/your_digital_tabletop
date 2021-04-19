@@ -45,6 +45,7 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
 
   setbgExpandedButton(name) {
     return FlatButton(
+        color: Theme.of(context).accentColor,
         child: Icon(Icons.add),
         onPressed: () {
           setState(() {
@@ -62,10 +63,12 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
     List<dynamic> bgJ = widget.backgroundJson["background"];
     for (var i = 0; i < bgJ.length; i++) {
       bgList.add(Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(bgJ[i]["name"]),
+              Text(bgJ[i]["name"].split('(')[0]),
               setbgExpandedButton(bgJ[i]["name"]),
             ],
           )
@@ -92,7 +95,10 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
     }
     return ListView.separated(
         itemBuilder: (BuildContext context, int index) {
-          return Container(color: Colors.lightBlueAccent, child: bgList[index]);
+          return Container(
+              padding: EdgeInsets.only(left: 30, right: 30),
+              color: Theme.of(context).primaryColor,
+              child: bgList[index]);
         },
         separatorBuilder: (BuildContext context, int index) => const Divider(),
         itemCount: bgList.length);
@@ -127,114 +133,130 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
       children: [
         Text("Alignment"),
         Row(
-          children: [Text("Lawful - Evil")],
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Container(
+              padding: EdgeInsets.only(right: 30),
+              child: Text("Lawful - Evil"),
+            )
+          ],
         ),
-        Row(children: [
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           Text("Good"),
-          Radio(
-            value: CharacterAlignment.lawfulGood,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.neutralGood,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.chaoticGood,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          )
+          Row(children: [
+            Radio(
+              value: CharacterAlignment.lawfulGood,
+              groupValue: alignment,
+              onChanged: (CharacterAlignment value) {
+                setState(() {
+                  alignment = value;
+                  playerCharacter.characterSheet["alignment"] =
+                      alignment.toString().split('.').last;
+                });
+              },
+            ),
+            Radio(
+              value: CharacterAlignment.neutralGood,
+              groupValue: alignment,
+              onChanged: (CharacterAlignment value) {
+                setState(() {
+                  alignment = value;
+                  playerCharacter.characterSheet["alignment"] =
+                      alignment.toString().split('.').last;
+                });
+              },
+            ),
+            Radio(
+              value: CharacterAlignment.chaoticGood,
+              groupValue: alignment,
+              onChanged: (CharacterAlignment value) {
+                setState(() {
+                  alignment = value;
+                  playerCharacter.characterSheet["alignment"] =
+                      alignment.toString().split('.').last;
+                });
+              },
+            )
+          ])
         ]),
-        Row(children: [
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           Text("|"),
-          Radio(
-            value: CharacterAlignment.lawfulNeutral,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.neutral,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.chaoticNeutral,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
+          Row(
+            children: [
+              Radio(
+                value: CharacterAlignment.lawfulNeutral,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              ),
+              Radio(
+                value: CharacterAlignment.neutral,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              ),
+              Radio(
+                value: CharacterAlignment.chaoticNeutral,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              )
+            ],
           )
         ]),
-        Row(children: [
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           Text("Evil"),
-          Radio(
-            value: CharacterAlignment.lawfulEvil,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.neutralEvil,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
-          ),
-          Radio(
-            value: CharacterAlignment.chaoticEvil,
-            groupValue: alignment,
-            onChanged: (CharacterAlignment value) {
-              setState(() {
-                alignment = value;
-                playerCharacter.characterSheet["alignment"] =
-                    alignment.toString().split('.').last;
-              });
-            },
+          Row(
+            children: [
+              Radio(
+                value: CharacterAlignment.lawfulEvil,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              ),
+              Radio(
+                value: CharacterAlignment.neutralEvil,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              ),
+              Radio(
+                value: CharacterAlignment.chaoticEvil,
+                groupValue: alignment,
+                onChanged: (CharacterAlignment value) {
+                  setState(() {
+                    alignment = value;
+                    playerCharacter.characterSheet["alignment"] =
+                        alignment.toString().split('.').last;
+                  });
+                },
+              )
+            ],
           )
         ])
       ],
@@ -291,6 +313,7 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
       bgForm[bgForm.length - 1].children.add(Text(key));
       value.forEach((k, v) {
         bgForm[bgForm.length - 1].children.add(Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(k),
                 Checkbox(
@@ -348,7 +371,10 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
 
     return ListView.separated(
         itemBuilder: (BuildContext context, int index) {
-          return Container(color: Colors.lightBlueAccent, child: bgForm[index]);
+          return Container(
+              padding: EdgeInsets.only(left: 30, right: 30),
+              color: Theme.of(context).primaryColor,
+              child: bgForm[index]);
         },
         separatorBuilder: (BuildContext context, int index) => const Divider(),
         itemCount: bgForm.length);
@@ -370,16 +396,18 @@ class _PlayerCharacterBackground extends State<PlayerCharacterBackground> {
     var appBar = AppBar(title: Text(widget.title));
     return Scaffold(
         appBar: appBar,
-        body: SizedBox(
-          height:
-              MediaQuery.of(context).size.height - appBar.preferredSize.height,
-          child: Column(
-            children: [
-              Expanded(child: generateBackgroundLayout()),
-              Expanded(child: backgroundForm())
-            ],
-          ),
-        ));
+        body: Container(
+            padding: EdgeInsets.only(left: 30, right: 30),
+            child: SizedBox(
+              height: MediaQuery.of(context).size.height -
+                  appBar.preferredSize.height,
+              child: Column(
+                children: [
+                  Expanded(child: generateBackgroundLayout()),
+                  Expanded(child: backgroundForm()),
+                ],
+              ),
+            )));
   }
 }
 
@@ -398,7 +426,14 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
 
   _PlayerCharacterStats(this.playerCharacter);
 
-  var statsThing = {"str": 1, "dex": 2, "con": 3, "int": 4, "wis": 5, "cha": 6};
+  var statsThing = {
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 8
+  };
   var rollOrPointsBool = false;
   var userOrderedStats = {
     "str": 0,
@@ -430,110 +465,121 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
 
   statsForm() {
     var statsCol = Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [],
     );
     print(userOrderedStats);
     playerCharacter.characterSheet["stats"].forEach((key, value) {
       print(statsThing[key]);
-      statsCol.children.add(Row(children: [
-        Text("$key: "),
-        Text((value + userOrderedStats[key]).toString()),
-        DragTarget<int>(
-          onWillAccept: (value) {
-            return userOrderedStats[key] == 0;
-          },
-          onAccept: (value) {
-            setState(() {
-              userOrderedStats[key] = value;
-            });
-          },
-          builder: (_, candidateData, rejectedData) {
-            return Container(
-              width: 50,
-              height: 30,
-              color: Colors.lightBlueAccent,
-              alignment: Alignment.center,
-              child: userOrderedStats[key] != 0
-                  ? Draggable<int>(
-                      data: userOrderedStats[key],
-                      child: Container(
-                        width: 50,
-                        height: 30,
-                        alignment: Alignment.center,
-                        color: Colors.purple,
-                        child: Text(userOrderedStats[key].toString()),
-                      ),
-                      onDragCompleted: () {
-                        setState(() {
-                          userOrderedStats[key] = 0;
-                        });
-                      },
-                      // The widget to show under the pointer when a drag is under way
-                      feedback: Opacity(
-                        opacity: 0.4,
-                        child: Container(
-                          width: 50,
-                          height: 30,
-                          alignment: Alignment.center,
-                          color: Colors.purple,
-                          child: Text(userOrderedStats[key].toString()),
-                        ),
-                      ),
-                    )
-                  : Container(),
-            );
-          },
+      statsCol.children.add(
+          Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+        Row(
+          children: [
+            Text("$key: "),
+            Text((value + userOrderedStats[key]).toString()),
+          ],
         ),
-        DragTarget<int>(
-          onWillAccept: (value) {
-            return statsThing[key] == 0;
-          },
-          onAccept: (value) {
-            setState(() {
-              statsThing[key] = value;
-            });
-          },
-          builder: (_, candidateData, rejectedData) {
-            return Container(
-              width: 50,
-              height: 30,
-              color: Colors.lightBlueAccent,
-              alignment: Alignment.center,
-              child: statsThing[key] != 0
-                  ? Draggable<int>(
-                      data: statsThing[key],
+        Row(
+          children: [
+            DragTarget<int>(
+              onWillAccept: (value) {
+                return userOrderedStats[key] == 0;
+              },
+              onAccept: (value) {
+                setState(() {
+                  userOrderedStats[key] = value;
+                });
+              },
+              builder: (_, candidateData, rejectedData) {
+                return Container(
+                  width: 50,
+                  height: 30,
+                  color: Theme.of(context).scaffoldBackgroundColor,
+                  alignment: Alignment.center,
+                  child: userOrderedStats[key] != 0
+                      ? Draggable<int>(
+                          data: userOrderedStats[key],
+                          child: Container(
+                            width: 50,
+                            height: 30,
+                            alignment: Alignment.center,
+                            color: Theme.of(context).accentColor,
+                            child: Text(userOrderedStats[key].toString()),
+                          ),
+                          onDragCompleted: () {
+                            setState(() {
+                              userOrderedStats[key] = 0;
+                            });
+                          },
+                          // The widget to show under the pointer when a drag is under way
+                          feedback: Opacity(
+                            opacity: 0.4,
+                            child: Container(
+                              width: 50,
+                              height: 30,
+                              alignment: Alignment.center,
+                              color: Theme.of(context).accentColor,
+                              child: Text(userOrderedStats[key].toString()),
+                            ),
+                          ),
+                        )
+                      : Container(),
+                );
+              },
+            ),
+            DragTarget<int>(
+              onWillAccept: (value) {
+                return statsThing[key] == 0;
+              },
+              onAccept: (value) {
+                setState(() {
+                  statsThing[key] = value;
+                });
+              },
+              builder: (_, candidateData, rejectedData) {
+                return Container(
+                  width: 50,
+                  height: 30,
+                  color: Theme.of(context).scaffoldBackgroundColor,
+                  alignment: Alignment.center,
+                  child: statsThing[key] != 0
+                      ? Draggable<int>(
+                          data: statsThing[key],
 
-                      onDragCompleted: () {
-                        setState(() {
-                          statsThing[key] = 0;
-                        });
-                      },
-                      child: Container(
-                        width: 50,
-                        height: 30,
-                        alignment: Alignment.center,
-                        color: Colors.purple,
-                        child: Text(statsThing[key].toString()),
-                      ),
-                      // The widget to show under the pointer when a drag is under way
-                      feedback: Opacity(
-                        opacity: 0.4,
-                        child: Container(
-                          width: 50,
-                          height: 30,
-                          alignment: Alignment.center,
-                          color: Colors.purple,
-                          child: Text(statsThing[key].toString()),
-                        ),
-                      ),
-                    )
-                  : Container(),
-            );
-          },
-        ),
+                          onDragCompleted: () {
+                            setState(() {
+                              statsThing[key] = 0;
+                            });
+                          },
+                          child: Container(
+                            width: 50,
+                            height: 30,
+                            alignment: Alignment.center,
+                            color: Theme.of(context).accentColor,
+                            child: Text(statsThing[key].toString()),
+                          ),
+                          // The widget to show under the pointer when a drag is under way
+                          feedback: Opacity(
+                            opacity: 0.4,
+                            child: Container(
+                              width: 50,
+                              height: 30,
+                              alignment: Alignment.center,
+                              color: Theme.of(context).accentColor,
+                              child: Text(statsThing[key].toString()),
+                            ),
+                          ),
+                        )
+                      : Container(),
+                );
+              },
+            ),
+          ],
+        )
       ]));
     });
     statsCol.children.add(FlatButton(
+      color: Theme.of(context).accentColor,
       child: Text("Pray to R N Jesus"),
       onPressed: () {
         rollRandomStats();
@@ -546,6 +592,7 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
       }
     });
     statsCol.children.add(FlatButton(
+        color: Theme.of(context).accentColor,
         onPressed: canSubmit
             ? () {
                 _submit();
@@ -572,6 +619,14 @@ class _PlayerCharacterStats extends State<PlayerCharacterStats> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-        appBar: AppBar(title: Text(widget.title)), body: statsForm());
+      appBar: AppBar(title: Text(widget.title)),
+      body: Center(
+          child: Container(
+        margin: EdgeInsets.all(30.0),
+        color: Theme.of(context).primaryColor,
+        padding: EdgeInsets.all(30.0),
+        child: statsForm(),
+      )),
+    );
   }
 }

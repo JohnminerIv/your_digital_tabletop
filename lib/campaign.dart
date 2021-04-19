@@ -62,7 +62,7 @@ class _CampaignState extends State<Campaign> {
 
   openButton(path) {
     return FlatButton(
-      color: Theme.of(context).primaryColor,
+      color: Theme.of(context).accentColor,
       onPressed: () {
         Directory thisDir = new Directory(path);
         Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -83,7 +83,7 @@ class _CampaignState extends State<Campaign> {
 
   editButton(path) {
     return FlatButton(
-      color: Theme.of(context).primaryColor,
+      color: Theme.of(context).accentColor,
       onPressed: () {
         Directory thisDir = new Directory(path);
         Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -171,20 +171,19 @@ class _CampaignState extends State<Campaign> {
   Widget build(BuildContext context) {
     if (fileAndFolders == null) {
       return Scaffold(
-
         appBar: AppBar(
-          leading: FlatButton(
-            child: Icon(Icons.arrow_back),
-            onPressed: (){
-              setState(() {
-                drawerIsOpen = false;
-              });
-              Navigator.of(context).pop();
-            },
-          ),
+            leading: FlatButton(
+              child: Icon(Icons.arrow_back),
+              onPressed: () {
+                setState(() {
+                  drawerIsOpen = false;
+                });
+                Navigator.of(context).pop();
+              },
+            ),
             title: Text(widget.title)),
         body: new CircularProgressIndicator(
-          backgroundColor: Theme.of(context).accentColor,
+          backgroundColor: Theme.of(context).primaryColor,
         ),
       );
     }
@@ -192,7 +191,7 @@ class _CampaignState extends State<Campaign> {
       appBar: AppBar(
         leading: FlatButton(
           child: Icon(Icons.arrow_back),
-          onPressed: (){
+          onPressed: () {
             setState(() {
               drawerIsOpen = false;
             });
@@ -220,7 +219,7 @@ class _CampaignState extends State<Campaign> {
             return Container(
                 padding: EdgeInsets.only(left: 30, right: 30),
                 height: 50,
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).primaryColor,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

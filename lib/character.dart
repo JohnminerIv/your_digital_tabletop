@@ -45,12 +45,12 @@ class _PlayerCharacters extends State<PlayerCharacters> {
   }
 
   void _addCharacter() {
-
     loadTextFromFile('assets/src/5e-SRD-Races.json').then((data) {
-          Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return PlayerCharacterRace(racesJson: jsonDecode(data));
-            })).whenComplete(() {_loadFiles();});
-        loaded = false;
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return PlayerCharacterRace(racesJson: jsonDecode(data));
+      })).whenComplete(() {
+        _loadFiles();
+      });
     });
   }
 
@@ -58,7 +58,9 @@ class _PlayerCharacters extends State<PlayerCharacters> {
     file.readAsString().then((data) {
       Navigator.push(context, MaterialPageRoute(builder: (context) {
         return PCSheet(json: jsonDecode(data));
-      })).whenComplete(() {_loadFiles();});
+      })).whenComplete(() {
+        _loadFiles();
+      });
     });
   }
 
@@ -73,16 +75,20 @@ class _PlayerCharacters extends State<PlayerCharacters> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView.separated(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(30.0),
         itemCount: files.length,
         itemBuilder: (BuildContext context, int index) {
           return Container(
+            padding: EdgeInsets.only(left: 30, right: 30),
             height: 50,
+            color: Theme.of(context).primaryColor,
             child: Center(
                 child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(files[index].path.split("/").last),
                 FlatButton(
+                    color: Theme.of(context).accentColor,
                     onPressed: () {
                       _showCharacter(files[index]);
                     },
@@ -126,61 +132,109 @@ class _PCSheet extends State<PCSheet> {
       statsMods[key] = ((value - 10) / 2).floor();
     });
     Column column = new Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [],
     );
     column.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Column(
-          children: [Text("${json["currentHp"]}/${json["maxHp"]}"), Text("HP")],
-        ),
-        Column(
-          children: [Text("${10 + statsMods["dex"]}"), Text("AC")],
-        ),
-        Column(
-          children: [Text("${statsMods["dex"]}"), Text("Initiative")],
-        ),
-        Column(
-          children: [Text("${json["hitDie"]}"), Text("Hit Die")],
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [
+                Text("${json["currentHp"]}/${json["maxHp"]}"),
+                Text("HP")
+              ],
+            )),
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${10 + statsMods["dex"]}"), Text("AC")],
+            )),
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["dex"]}"), Text("Initiative")],
+            )),
+        Container(
+          padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+          color: Theme.of(context).accentColor,
+          child: Column(
+            children: [Text("${json["hitDie"]}"), Text("Hit Die")],
+          ),
         )
       ],
     ));
     column.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Column(
-          children: [Text("2"), Text("Prof Bonus")],
-        ),
-        Column(
-          children: [Text("${json["speed"]}"), Text("Speed")],
-        ),
-        Column(
-          children: [Text("${10 + statsMods["wis"]}"), Text("Pass Wis")],
-        )
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("2"), Text("Prof Bonus")],
+            )),
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${json["speed"]}"), Text("Speed")],
+            )),
+        Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${10 + statsMods["wis"]}"), Text("Pass Wis")],
+            ))
       ],
     ));
     column.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Column(
-          children: [Text("${statsMods["str"]}"), Text("Str")],
-        ),
-        Column(
-          children: [Text("${statsMods["dex"]}"), Text("Dex")],
-        ),
-        Column(
-          children: [Text("${statsMods["con"]}"), Text("Con")],
-        )
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["str"]}"), Text("Str")],
+            )),
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["dex"]}"), Text("Dex")],
+            )),
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["con"]}"), Text("Con")],
+            ))
       ],
     ));
     column.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Column(
-          children: [Text("${statsMods["int"]}"), Text("Int")],
-        ),
-        Column(
-          children: [Text("${statsMods["wis"]}"), Text("Wis")],
-        ),
-        Column(
-          children: [Text("${statsMods["cha"]}"), Text("Cha")],
-        )
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["int"]}"), Text("Int")],
+            )),
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["wis"]}"), Text("Wis")],
+            )),
+        Container(
+            padding: EdgeInsets.all(20),
+            color: Theme.of(context).accentColor,
+            child: Column(
+              children: [Text("${statsMods["cha"]}"), Text("Cha")],
+            ))
       ],
     ));
     return column;
@@ -190,9 +244,15 @@ class _PCSheet extends State<PCSheet> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-        appBar: AppBar(
-          title: Text("${json['name']}, ${json['race']} ${json['class']}"),
-        ),
-        body: buildBody());
+      appBar: AppBar(
+        title: Text("${json['name']}, ${json['race']} ${json['class']}"),
+      ),
+      body: Container(
+        padding: EdgeInsets.all(30),
+        margin: EdgeInsets.all(30),
+        color: Theme.of(context).primaryColor,
+        child: Center(child: buildBody()),
+      ),
+    );
   }
 }

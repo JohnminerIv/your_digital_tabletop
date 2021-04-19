@@ -43,6 +43,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
 
   Column generateRaceLayout(index) {
     Column raceColumn = Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [],
     );
     bool resetButtons = true;
@@ -63,6 +64,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
     playerCharacter.raceInfo.forEach((k, v) {
       if (k.contains("options")) {
         raceColumn.children.add(Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [Text(k)],
         ));
         if (playerCharacter.raceInfoOptions[k] == null) {
@@ -71,6 +73,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
         int choiceAmount = playerCharacter.raceInfo[k]["choose"];
         playerCharacter.raceInfoOptions[k]["choiceAmount"] = choiceAmount;
         raceColumn.children.add(Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [Text("Choose $choiceAmount from: ")],
         ));
 
@@ -81,6 +84,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
           }
           print(playerCharacter.raceInfoOptions[k]);
           raceColumn.children.add(Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(playerCharacter.raceInfo[k]["from"][i]["name"]),
               Checkbox(
@@ -99,10 +103,12 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
       }
     });
     raceColumn.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [Text("Subraces")],
     ));
     if (playerCharacter.raceInfo["subraces"].length == 0) {
       raceColumn.children.add(Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [Text("No subclasses")],
       ));
     } else {
@@ -114,6 +120,7 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
           playerCharacter.raceInfoOptions["subraces"][m["index"]] = false;
         }
         raceColumn.children.add(Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(m["index"]),
             Checkbox(
@@ -158,8 +165,10 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
       }
     });
     raceColumn.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         FlatButton(
+            color: Theme.of(context).accentColor,
             onPressed: valid
                 ? () {
                     _submitButton();
@@ -178,25 +187,33 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView.separated(
+          padding: const EdgeInsets.all(30),
           itemBuilder: (BuildContext context, int index) {
             return Container(
-                color: Colors.lightBlueAccent,
+                padding: EdgeInsets.only(left: 30, right: 30),
+                color: Theme.of(context).primaryColor,
                 child: (playerCharacter.raceInfo.length == 0 ||
                         playerCharacter.raceInfo != widget.racesJson[index])
-                    ? Row(children: [
-                        Text(widget.racesJson[index]['index']),
-                        FlatButton(
-                            onPressed: () {
-                              setRaceInfo(index);
-                            },
-                            child: Icon(Icons.add))
-                      ])
+                    ? Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                            Text(widget.racesJson[index]['index']),
+                            FlatButton(
+                                color: Theme.of(context).accentColor,
+                                onPressed: () {
+                                  setRaceInfo(index);
+                                },
+                                child: Icon(Icons.add))
+                          ])
                     : Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(widget.racesJson[index]['index']),
                               FlatButton(
+                                  color: Theme.of(context).accentColor,
                                   onPressed: () {
                                     setRaceInfo(index);
                                   },
@@ -204,7 +221,9 @@ class _PlayerCharacterRace extends State<PlayerCharacterRace> {
                             ],
                           ),
                           Row(
-                            children: [generateRaceLayout(index)],
+                            children: [
+                              Expanded(child: generateRaceLayout(index))
+                            ],
                           )
                         ],
                       ));

@@ -89,6 +89,7 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
                   [playerCharacter.classInfo[k][t]["from"][i]["name"]] = false;
             }
             classColumn.children.add(Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(playerCharacter.classInfo[k][t]["from"][i]["name"]),
                 Checkbox(
@@ -123,8 +124,10 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
       }
     });
     classColumn.children.add(Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         FlatButton(
+            color: Theme.of(context).accentColor,
             onPressed: valid
                 ? () {
                     _submitButton();
@@ -142,25 +145,32 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView.separated(
+          padding: const EdgeInsets.all(30),
           itemBuilder: (BuildContext context, int index) {
             return Container(
-                color: Colors.lightBlueAccent,
+                padding: EdgeInsets.only(left: 30, right: 30),
+                color: Theme.of(context).primaryColor,
                 child: (playerCharacter.classInfo.length == 0 ||
                         playerCharacter.classInfo != classesJson[index])
-                    ? Row(children: [
-                        Text(widget.classesJson[index]['index']),
-                        FlatButton(
-                            onPressed: () {
-                              setClassInfo(index);
-                            },
-                            child: Icon(Icons.add))
-                      ])
+                    ? Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                            Text(widget.classesJson[index]['index']),
+                            FlatButton(
+                                color: Theme.of(context).accentColor,
+                                onPressed: () {
+                                  setClassInfo(index);
+                                },
+                                child: Icon(Icons.add))
+                          ])
                     : Column(
                         children: [
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(widget.classesJson[index]['index']),
                               FlatButton(
+                                  color: Theme.of(context).accentColor,
                                   onPressed: () {
                                     setClassInfo(index);
                                   },
@@ -168,7 +178,9 @@ class _PlayerCharacterClass extends State<PlayerCharacterClass> {
                             ],
                           ),
                           Row(
-                            children: [generateClassLayout(index)],
+                            children: [
+                              Expanded(child: generateClassLayout(index))
+                            ],
                           )
                         ],
                       ));
